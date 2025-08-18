@@ -1,0 +1,17 @@
+﻿id,sample_id,sample_fastq,IR,Treatment,exp_id,Condition,Rep,plate_position,plate_row,plate_col
+c017,C1,Rep1_01,nonIR,DMSO,1,nonIR_DMSO,1,F02,F,2
+c013,C2,Rep2_01,nonIR,DMSO,1,nonIR_DMSO,2,B02,B,2
+c012,C3,Rep3_01,nonIR,DMSO,1,nonIR_DMSO,3,A02,A,2
+c018,C4,Rep4_01,nonIR,DMSO,1,nonIR_DMSO,4,G02,G,2
+c003,F1,Rep1_02,nonIR,Flunarizine,2,nonIR_Flunarizine,1,B01,B,1
+c008,F2,Rep2_02,nonIR,Flunarizine,2,nonIR_Flunarizine,2,G01,G,1
+c006,F3,Rep3_02,nonIR,Flunarizine,2,nonIR_Flunarizine,3,E01,E,1
+c001,F4,Rep4_02,nonIR,Flunarizine,2,nonIR_Flunarizine,4,A01,A,1
+c005,I1,Rep1_03,IR,DMSO,3,IR_DMSO,1,D01,D,1
+c007,I2,Rep2_03,IR,DMSO,3,IR_DMSO,2,F01,F,1
+c016,I3,Rep3_03,IR,DMSO,3,IR_DMSO,3,E02,E,2
+c015,I4,Rep4_03,IR,DMSO,3,IR_DMSO,4,D02,D,2
+c014,IF1,Rep1_04,IR,Flunarizine,4,IR_Flunarizine,1,C02,C,2
+c009,IF2,Rep2_04,IR,Flunarizine,4,IR_Flunarizine,2,H01,H,1
+c004,IF3,Rep3_04,IR,Flunarizine,4,IR_Flunarizine,3,C01,C,1
+c020,IF4,Rep4_04,IR,Flunarizine,4,IR_Flunarizine,4,H02,H,2
