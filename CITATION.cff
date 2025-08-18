@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated preprint below."
+title: "Code for: Phenotypic Screening Identifies Flunarizine as an Inhibitor of Radiotherapy-Induced Astrocyte Reactivity with Therapeutic Potential in Glioblastoma"
+version: 1.0.0
+date-released: 2025-08-18
+repository-code: "https://github.com/PietrasLab/Jeannot-GBM-astrocytes-Flunarizine"
+url: "https://github.com/PietrasLab/Jeannot-GBM-astrocytes-Flunarizine"
+identifiers:
+  - type: doi
+    value: "10.1101/2025.07.12.664538"
+    description: "bioRxiv preprint DOI"
+  - type: url
+    value: "https://www.biorxiv.org/content/10.1101/2025.07.12.664538v1"
+    description: "bioRxiv landing page"
+license: "MIT"
+preferred-citation:
+  type: article
+  title: "Phenotypic Screening Identifies Flunarizine as an Inhibitor of Radiotherapy-Induced Astrocyte Reactivity with Therapeutic Potential in Glioblastoma"
+  authors:
+    - family-names: "Jeannot"
+      given-names: "Pauline"
+    - family-names: "Rosberg"
+      given-names: "Rebecca"
+    - family-names: "Lindgren"
+      given-names: "David"
+    - family-names: "Dawson"
+      given-names: "John C."
+    - family-names: "Pracucci"
+      given-names: "Enrico"
+    - family-names: "Börjesson-Freitag"
+      given-names: "Cornelia"
+    - family-names: "Martinez"
+      given-names: "Julia"
+    - family-names: "Pantazopoulou"
+      given-names: "Vasiliki"
+    - family-names: "Malmberg"
+      given-names: "Maria"
+    - family-names: "Smolag"
+      given-names: "Karolina I."
+    - family-names: "Manou"
+      given-names: "Dimitra"
+    - family-names: "Elliott"
+      given-names: "Richard J.R."
+    - family-names: "Ceberg"
+      given-names: "Crister"
+    - family-names: "Berg"
+      given-names: "Tracy J."
+    - family-names: "Ahlenius"
+      given-names: "Henrik"
+    - family-names: "Carragher"
+      given-names: "Neil O."
+    - family-names: "Pietras"
+      given-names: "Alexander"
+  doi: "10.1101/2025.07.12.664538"
+  journal: "bioRxiv"
+  date-published: 2025-07-17
+  url: "https://www.biorxiv.org/content/10.1101/2025.07.12.664538v1"
