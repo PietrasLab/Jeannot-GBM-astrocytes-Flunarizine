@@ -157,7 +157,7 @@ All_batches <- All_batches %>% filter(NA_Count<2) %>% select(-NA_Count)
 
 # ---- Save distance score list without AstroJ ---- 
 All_batches  %>% arrange(Mean_DistanceScore_AllB_no_J) %>%
-  write.csv(file = "SCR4_Confirmation_screening.csv")
+  write.csv(file = "./results/SuppTable6_SCR4_Confirmation_screening.csv")
 
 # ---- Plot histogram of mean Distance Score for all batches ---- 
 hist_DS_AllBatches <- All_batches %>% ggplot(aes(x=Mean_DistanceScore_AllB_no_J)) + 
