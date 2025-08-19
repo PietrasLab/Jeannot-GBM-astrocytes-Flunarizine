@@ -1,7 +1,7 @@
 # ================================================================
 # Title: DrugScreen_DistanceScore_4_libraries
 # Description: Code to produce the plots showing Distance scores for all primary drug screens and the confirmation screen
-# (Fig 2B, 2E)
+# (Fig 2B, 2E, Supp. Tables 3-5)
 # ================================================================
 
 # ---- Load libraries ----
@@ -172,8 +172,15 @@ Boxplot_AllLibraries  <- All_librairies %>% mutate(Category = fct_relevel(Catego
     legend.box.background = element_rect(fill = "transparent") # get rid of legend panel bg
   ) +
   scale_color_manual(values = custom_order_colors)
-
 ggsave(file="Fig2B_DistanceScore_All_Libraries.pdf", Boxplot_AllLibraries, path = "./results/", bg = "transparent", height = 4, width = 6)
+
+# ---- Save the .csv files with distance scores for each screen ----
+All_librairies  %>% filter(Library == "PKE library") %>%
+  write.csv(file = "./results/SuppTable3_SCR1_PKE_Library.csv")
+All_librairies  %>% filter(Library == "Anti Cancer Drug Library") %>%
+  write.csv(file = "./results/SuppTable4_SCR2_AntiCancer_Drug_Library.csv")
+All_librairies  %>% filter(Library == "FDA Approved Drugs Library") %>%
+  write.csv(file = "./results/SuppTable5_SCR3_FDA_Approved_Compounds_Library.csv")
 
 # Plot Distance score confirmation screening SCR4
 BoxPlot_SCR4  <- SCR4 %>% mutate(Category = fct_relevel(Category, "IR- DMSO", "IR+ DMSO", "IR+ Compounds")) %>%
