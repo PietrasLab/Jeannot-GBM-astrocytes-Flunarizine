@@ -4,7 +4,13 @@
 # Date: [Insert Date]
 # Description: Full pipeline for normalization, DE analysis, PCA,
 #              transcriptional activity inference (decoupleR), and
-#              heatmap/boxplot visualization of RNA-seq data.
+#              heatmap/boxplot visualization of RNA-seq data. This
+#              script is part of the Flunarizine project manuscript.
+#              It includes PCA plots, GSEA signature heatmaps, and
+#              differential expression analysis. Data is loaded
+#              from preprocessed DESeq2 objects and metadata files
+#              available in the `data/` directory.
+#              Results are saved in the `results/` directory.
 # ================================================================
 
 # ---- Load libraries ----
