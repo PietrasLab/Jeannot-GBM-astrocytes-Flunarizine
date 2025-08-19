@@ -1,0 +1,60 @@
+# ================================================================
+# Title: Morphological_Analysis_Fig1
+# Description: Pipeline
+# ================================================================
+
+# ---- Load libraries ----
+library(tidyverse)
+library("FactoMineR")
+library("tidyverse")
+library("ggplot2")
+library("factoextra")
+library("corrplot")
+library(ggsci)
+
+# ---- Import data ----
+Cells <- read.csv("../data/IF76_Cells.csv")
+Nuclei <- read.csv("../data/IF76_Nuclei.csv")
+Cytoplasm <- read.csv("../data/IF76_Cytoplasm.csv")
+
+# ---- Process metadata  ---- 
+Cells <- mutate(Cells, Astrocyte= as.factor(Metadata_Astrocyte), Treatment= as.factor(Metadata_Treatment))
+Nuclei <- mutate(Nuclei, Astrocyte= as.factor(Metadata_Astrocyte), Treatment= as.factor(Metadata_Treatment))
+Cytoplasm <- mutate(Cytoplasm, Astrocyte= as.factor(Metadata_Astrocyte), Treatment= as.factor(Metadata_Treatment))
+Cells <- Cells %>% select(-ImageNumber, -ObjectNumber, -Metadata_FileLocation, -Metadata_Frame, 
+                           -Metadata_Series, -Metadata_Astrocyte, -Metadata_Picture_number, 
+                           -Metadata_Channel_number, -Metadata_Condition, -Metadata_Exp, -Metadata_Treatment, -Metadata_Magnification, -Metadata_Seeding)
+Nuclei <- Nuclei %>% select(-ImageNumber, -ObjectNumber, -Metadata_FileLocation, -Metadata_Frame, 
+                            -Metadata_Series, -Metadata_Astrocyte, -Metadata_Picture_number, 
+                            -Metadata_Channel_number, -Metadata_Condition, -Metadata_Exp, -Metadata_Treatment, -Metadata_Magnification, -Metadata_Seeding)
+Cytoplasm <- Cytoplasm %>% select(-ImageNumber, -ObjectNumber, -Metadata_FileLocation, -Metadata_Frame, 
+                                  -Metadata_Series, -Metadata_Astrocyte, -Metadata_Picture_number, 
+                                  -Metadata_Channel_number, -Metadata_Condition, -Metadata_Exp, -Metadata_Treatment, -Metadata_Magnification, -Metadata_Seeding)
+
+# ---- Merge the 3 data frames and aggregate by Astrocyte batches and Treatment ---- 
+Nuclei <- Nuclei %>% mutate(nb= 1:nrow(Cells))
+Cells <- Cells %>% mutate(nb= 1:nrow(Cells))
+Cytoplasm <- Cytoplasm %>% mutate(nb= 1:nrow(Cells))
+AllData <- merge(Nuclei, Cells, by.x = "nb", by.y = "nb", suffixes = c("_N","_C"))
+AllData <- merge(AllData, Cytoplasm, by.x = "nb", by.y = "nb", suffixes = c("","_Cy"))
+AllDataAgg <- AllData %>% aggregate(by=list(Astrocyte, Treatment), FUN= mean)
+
+# ---- PCA 3 Gy hAstro vs iPSC  ---- 
+AggData_IF76_IR <- AggData_IF76 %>% filter(Group.2 %in% c("Ctl", "IR3Gy"))
+AggData_IF76_IR <- AggData_IF76_IR %>% mutate(Sample_names= str_c(Group.1, Group.2, sep = " ")) #Add name of samples
+AggData_IF76_IR <- AggData_IF76_IR  %>% select(Group.1, Group.2, Sample_names,   AreaShape_BoundingBoxArea_N, AreaShape_CentralMoment_0_0_N, AreaShape_Eccentricity_N, AreaShape_FormFactor_N, AreaShape_HuMoment_0_N, AreaShape_InertiaTensorEigenvalues_0_N, AreaShape_InertiaTensor_0_0_N, AreaShape_SpatialMoment_0_0_N, AreaShape_Zernike_0_0_N, 
+                                     AreaShape_Area_C, AreaShape_CentralMoment_0_0_C, AreaShape_Compactness_C, AreaShape_EquivalentDiameter_C, AreaShape_InertiaTensorEigenvalues_1_C, AreaShape_MajorAxisLength_C, AreaShape_Perimeter_C, AreaShape_SpatialMoment_0_0_C, AreaShape_Zernike_2_0_C, Intensity_MeanIntensity_GFAP_C, Intensity_StdIntensity_GFAP_C, Intensity_IntegratedIntensity_Phalloidin_C, Intensity_MassDisplacement_Phalloidin_C, 
+                                     Math_Measurement, Intensity_IntegratedIntensity_Vimentin_C, Intensity_MeanIntensity_Vimentin_C, 
+                                     Texture_Correlation_Phalloidin_12_00_256, Texture_InfoMeas1_Phalloidin_12_00_256, Texture_InfoMeas2_Phalloidin_12_00_256, Texture_Correlation_Vimentin_12_00_256, Texture_Entropy_Vimentin_12_00_256, Texture_InfoMeas1_Vimentin_12_00_256, Texture_SumVariance_Vimentin_12_00_256, 
+                                     Intensity_MeanIntensity_DNA, Intensity_MassDisplacement_DNA, Intensity_StdIntensity_DNA) # select the variables that will be used to do the PCA
+PCA_IR <- AggData_IF76_IR %>% select(-Group.1, -Group.2, -Sample_names) %>% PCA(scale.unit = TRUE, graph = TRUE)
+Plot_PCA_IR <- fviz_pca_ind(PCA_IR,  geom.ind = "point", label="none",
+                                 pointsize=4, pointshape=19, 
+                                 col.ind = AggData_IF76_IR$Sample_names, mean.point=FALSE,
+                                 palette= IR_pal_ordered,
+                                 legend.title="Treatment")
+ggsave(file="Fig1F_PCA_3Gy_hAstro_iPSC.pdf", Plot_PCA_IR, path = "../results/", width = 6, height=4)
+
+
+
+
