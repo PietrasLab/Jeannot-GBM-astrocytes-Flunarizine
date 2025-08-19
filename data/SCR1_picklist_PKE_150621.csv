@@ -1,0 +1,813 @@
+destination well ,Row,Column,Sample Name,Source well,Sample ID,transfer volume,Sample comment,Source Plate Barcode,Destination Plate Barcode
+B5,B,5,BAY 11-7082,M10,BAY 11-7082,2400,3uM,sourcebarcode1, 3uM F
+B6,B,6,BML-244,E15,BML-244,2400,3uM,sourcebarcode1, 3uM F
+B7,B,7,Wortmannin,G12,Wortmannin,2400,3uM,sourcebarcode1, 3uM F
+B8,B,8,Pepstatin A,A21,Pepstatin A,2400,3uM,sourcebarcode1, 3uM F
+B10,B,10,N-Ethylmaleimide,G21,N-Ethylmaleimide,2400,3uM,sourcebarcode1, 3uM F
+B11,B,11,Nullscript,B17,Nullscript,2400,3uM,sourcebarcode1, 3uM F
+B12,B,12,P32/98 hemifumarate salt,E21,P32/98 hemifumarate salt,2400,3uM,sourcebarcode1, 3uM F
+B13,B,13,Resveratrol,D13,Resveratrol,2400,3uM,sourcebarcode1, 3uM F
+B15,B,15,H-89Â·2HCl,G22,H-89Â·2HCl,2400,3uM,sourcebarcode1, 3uM F
+B16,B,16,Fumagillin,E17,Fumagillin,2400,3uM,sourcebarcode1, 3uM F
+B17,B,17,Epigallocatechin gallate,C05,Epigallocatechin gallate,2400,3uM,sourcebarcode1, 3uM F
+B18,B,18,TYRPHOSTIN 47,A08,TYRPHOSTIN 47,2400,3uM,sourcebarcode1, 3uM F
+B19,B,19,Trichostatin A,H15,Trichostatin A,2400,3uM,sourcebarcode1, 3uM F
+B20,B,20,CA-074,A15,CA-074,2400,3uM,sourcebarcode1, 3uM F
+C5,C,5,TYRPHOSTIN 23,C22,TYRPHOSTIN 23,2400,3uM,sourcebarcode1, 3uM F
+C6,C,6,AAF-CMK,C15,AAF-CMK,2400,3uM,sourcebarcode1, 3uM F
+C7,C,7,AEBSF·HCl,G11,AEBSF·HCl,2400,3uM,sourcebarcode1, 3uM F
+C8,C,8,PEmptyK,E05,PEmptyK,2400,3uM,sourcebarcode1, 3uM F
+C10,C,10,Bestatin·HCl,C19,Bestatin·HCl,2400,3uM,sourcebarcode1, 3uM F
+C11,C,11,Piceatannol,D21,Piceatannol,2400,3uM,sourcebarcode1, 3uM F
+C12,C,12,Valproic acid hydroxamate,H19,Valproic acid hydroxamate,2400,3uM,sourcebarcode1, 3uM F
+C13,C,13,Calpeptin,I21,Calpeptin,2400,3uM,sourcebarcode1, 3uM F
+C15,C,15,Calpain Inhibitor II (ALLM),I11,Calpain Inhibitor II (ALLM),2400,3uM,sourcebarcode1, 3uM F
+C16,C,16,E-64,A05,E-64,2400,3uM,sourcebarcode1, 3uM F
+C17,C,17,KN-62,I08,KN-62,2400,3uM,sourcebarcode1, 3uM F
+C18,C,18,Sirtinol,F21,Sirtinol,2400,3uM,sourcebarcode1, 3uM F
+C19,C,19,NCH-51,J09,NCH-51,2400,3uM,sourcebarcode1, 3uM F
+D5,D,5,Staurosporine,C12,Staurosporine,2400,3uM,sourcebarcode1, 3uM F
+D6,D,6,TYRPHOSTIN 25,C24,TYRPHOSTIN 25,2400,3uM,sourcebarcode1, 3uM F
+D7,D,7,Valproic acid,D09,Valproic acid,2400,3uM,sourcebarcode1, 3uM F
+D8,D,8,AG-825,C16,AG-825,2400,3uM,sourcebarcode1, 3uM F
+D10,D,10,5.6-dichloro-1-Î²-D-ribofuranosylbenzimidazole,M12,5.6-dichloro-1-Î²-D-ribofuranosylbenzimidazole,2400,3uM,sourcebarcode1, 3uM F
+D11,D,11,H-9Â·HCl,C10,H-9Â·HCl,2400,3uM,sourcebarcode1, 3uM F
+D12,D,12,BIX-01294,F13,BIX-01294,2400,3uM,sourcebarcode1, 3uM F
+D13,D,13,SU1498,M06,SU1498,2400,3uM,sourcebarcode1, 3uM F
+D15,D,15,Oxamflatin,F19,Oxamflatin,2400,3uM,sourcebarcode1, 3uM F
+D16,D,16,BML-257,O06,BML-257,2400,3uM,sourcebarcode1, 3uM F
+D17,D,17,Phenylbutyrate·Na,D05,Phenylbutyrate·Na,2400,3uM,sourcebarcode1, 3uM F
+D18,D,18,Indirubin,M18,Indirubin,2400,3uM,sourcebarcode1, 3uM F
+D19,D,19,Daidzein,K24,Daidzein,2400,3uM,sourcebarcode1, 3uM F
+E5,E,5,Argatroban,G15,Argatroban,2400,3uM,sourcebarcode1, 3uM F
+E7,E,7,Isonicotinamide,H17,Isonicotinamide,2400,3uM,sourcebarcode1, 3uM F
+E8,E,8,PKSI-527,I09,PKSI-527,2400,3uM,sourcebarcode1, 3uM F
+E10,E,10,TLCK·HCl,E11,TLCK·HCl,2400,3uM,sourcebarcode1, 3uM F
+E11,E,11,Dec-RVKR-CMK,K07,Dec-RVKR-CMK,2400,3uM,sourcebarcode1, 3uM F
+E12,E,12,SP 600125,M16,SP 600125,2400,3uM,sourcebarcode1, 3uM F
+E13,E,13,Genistein,K22,Genistein,2400,3uM,sourcebarcode1, 3uM F
+E15,E,15,URB-597,G17,URB-597,2400,3uM,sourcebarcode1, 3uM F
+E16,E,16,TYRPHOSTIN 9,E16,TYRPHOSTIN 9,2400,3uM,sourcebarcode1, 3uM F
+E17,E,17,5-Nitroisatin,E19,5-Nitroisatin,2400,3uM,sourcebarcode1, 3uM F
+E18,E,18,TYRPHOSTIN 1,E08,TYRPHOSTIN 1,2400,3uM,sourcebarcode1, 3uM F
+E19,E,19,Z-VAD-FMK,G09,Z-VAD-FMK,2400,3uM,sourcebarcode1, 3uM F
+F5,F,5,AG-494,C14,AG-494,2400,3uM,sourcebarcode1, 3uM F
+F6,F,6,Butyrolactone 3,F15,Butyrolactone 3,2400,3uM,sourcebarcode1, 3uM F
+F7,F,7,Palmitoyl-DL-carnitine,K18,Palmitoyl-DL-carnitine,2400,3uM,sourcebarcode1, 3uM F
+F8,F,8,Z-FA-FMK,G07,Z-FA-FMK,2400,3uM,sourcebarcode1, 3uM F
+F10,F,10,LY 294002,G10,LY 294002,2400,3uM,sourcebarcode1, 3uM F
+F11,F,11,ZM 336372,K10,ZM 336372,2400,3uM,sourcebarcode1, 3uM F
+F12,F,12,Lisinopril,K09,Lisinopril,2400,3uM,sourcebarcode1, 3uM F
+F13,F,13,AG-1296,K14,AG-1296,2400,3uM,sourcebarcode1, 3uM F
+F15,F,15,N9-isopropyl-olomoucine,I18,N9-isopropyl-olomoucine,2400,3uM,sourcebarcode1, 3uM F
+F16,F,16,SU 4312,K12,SU 4312,2400,3uM,sourcebarcode1, 3uM F
+F17,F,17,SAHA,B23,SAHA,2400,3uM,sourcebarcode1, 3uM F
+F18,F,18,BML-266,D19,BML-266,2400,3uM,sourcebarcode1, 3uM F
+F19,F,19,Boc-Gly-Val-Val-CHO,C21,Boc-Gly-Val-Val-CHO,2400,3uM,sourcebarcode1, 3uM F
+G5,G,5,B2,F11,B2,2400,3uM,sourcebarcode1, 3uM F
+G6,G,6,Actinonin,I13,Actinonin,2400,3uM,sourcebarcode1, 3uM F
+G7,G,7,Suberoyl bis-hydroxamic acid,B13,Suberoyl bis-hydroxamic acid,2400,3uM,sourcebarcode1, 3uM F
+G8,G,8,Nafamostat mesylate,E23,Nafamostat mesylate,2400,3uM,sourcebarcode1, 3uM F
+G10,G,10,ITSA-1,J05,ITSA-1,2400,3uM,sourcebarcode1, 3uM F
+G11,G,11,Gliotoxin,C11,Gliotoxin,2400,3uM,sourcebarcode1, 3uM F
+G12,G,12,LFM-A13,O20,LFM-A13,2400,3uM,sourcebarcode1, 3uM F
+G13,G,13,CA-074 Me,A17,CA-074 Me,2400,3uM,sourcebarcode1, 3uM F
+G15,G,15,U-0126,A06,U-0126,2400,3uM,sourcebarcode1, 3uM F
+G17,G,17,Fluoro-SAHA,D23,Fluoro-SAHA,2400,3uM,sourcebarcode1, 3uM F
+G18,G,18,TPCK,E13,TPCK,2400,3uM,sourcebarcode1, 3uM F
+G19,G,19,Hydroxy-2-naphthalenylmethylphosphonic acid,E18,Hydroxy-2-naphthalenylmethylphosphonic acid,2400,3uM,sourcebarcode1, 3uM F
+H5,H,5,Phosphoramidon,K05,Phosphoramidon,2400,3uM,sourcebarcode1, 3uM F
+H6,H,6,Rottlerin,K20,Rottlerin,2400,3uM,sourcebarcode1, 3uM F
+H7,H,7,GF 109203X,G14,GF 109203X,2400,3uM,sourcebarcode1, 3uM F
+H8,H,8,Acivicin,G23,Acivicin,2400,3uM,sourcebarcode1, 3uM F
+H10,H,10,Elastatinal,I15,Elastatinal,2400,3uM,sourcebarcode1, 3uM F
+H11,H,11,Piceatannol,E22,Piceatannol,2400,3uM,sourcebarcode1, 3uM F
+H12,H,12,Splitomicin,B07,Splitomicin,2400,3uM,sourcebarcode1, 3uM F
+H13,H,13,BML-281,H11,BML-281,2400,3uM,sourcebarcode1, 3uM F
+H14,H,14,Scriptaid,B15,Scriptaid,2400,3uM,sourcebarcode1, 3uM F
+H15,H,15,E-64-C,A07,E-64-C,2400,3uM,sourcebarcode1, 3uM F
+H16,H,16,Tranylcypromine hemisulfate,D07,Tranylcypromine hemisulfate,2400,3uM,sourcebarcode1, 3uM F
+H17,H,17,TYRPHOSTIN 46,A14,TYRPHOSTIN 46,2400,3uM,sourcebarcode1, 3uM F
+H19,H,19,Terreic acid,A24,Terreic acid,2400,3uM,sourcebarcode1, 3uM F
+I5,I,5,AG-126,A10,AG-126,2400,3uM,sourcebarcode1, 3uM F
+I6,I,6,CTPB,F17,CTPB,2400,3uM,sourcebarcode1, 3uM F
+I9,I,9,TYRPHOSTIN 51,E06,TYRPHOSTIN 51,2400,3uM,sourcebarcode1, 3uM F
+I10,I,10,Iso-olomoucine,I22,Iso-olomoucine,2400,3uM,sourcebarcode1, 3uM F
+I11,I,11,SB-203580,C06,SB-203580,2400,3uM,sourcebarcode1, 3uM F
+I12,I,12,MDL-28170,A11,MDL-28170,2400,3uM,sourcebarcode1, 3uM F
+I13,I,13,ZM 449829,M08,ZM 449829,2400,3uM,sourcebarcode1, 3uM F
+I14,I,14,Triciribine,O24,Triciribine,2400,3uM,sourcebarcode1, 3uM F
+I15,I,15,DL-Thiorphan,E09,DL-Thiorphan,2400,3uM,sourcebarcode1, 3uM F
+I16,I,16,CL-82198·HCl,I23,CL-82198·HCl,2400,3uM,sourcebarcode1, 3uM F
+I17,I,17,Z-Leu-Leu-CHO,A13,Z-Leu-Leu-CHO,2400,3uM,sourcebarcode1, 3uM F
+I19,I,19,Anacardic acid,F09,Anacardic acid,2400,3uM,sourcebarcode1, 3uM F
+J5,J,5,TYRPHOSTIN AG 1478,E12,TYRPHOSTIN AG 1478,2400,3uM,sourcebarcode1, 3uM F
+J6,J,6,PP1,E24,PP1,2400,3uM,sourcebarcode1, 3uM F
+J8,J,8,QuercetinÂ·2H2O,O22,QuercetinÂ·2H2O,2400,3uM,sourcebarcode1, 3uM F
+J9,J,9,H-7Â·2HCl,C08,H-7Â·2HCl,2400,3uM,sourcebarcode1, 3uM F
+J10,J,10,AG-879,G08,AG-879,2400,3uM,sourcebarcode1, 3uM F
+J11,J,11,BML-210,B09,BML-210,2400,3uM,sourcebarcode1, 3uM F
+J12,J,12,NapSul-Ile-Trp-CHO,A19,NapSul-Ile-Trp-CHO,2400,3uM,sourcebarcode1, 3uM F
+J13,J,13,AG-490,A16,AG-490,2400,3uM,sourcebarcode1, 3uM F
+J14,J,14,Kenpaullone,M24,Kenpaullone,2400,3uM,sourcebarcode1, 3uM F
+J15,J,15,Indirubin-3'-monooxime,M20,Indirubin-3'-monooxime,2400,3uM,sourcebarcode1, 3uM F
+J16,J,16,Gabexate mesylate,I17,Gabexate mesylate,2400,3uM,sourcebarcode1, 3uM F
+J17,J,17,Zebularine,B21,Zebularine,2400,3uM,sourcebarcode1, 3uM F
+J19,J,19,Nicotinamide,D17,Nicotinamide,2400,3uM,sourcebarcode1, 3uM F
+K5,K,5,MC-1293,F07,MC-1293,2400,3uM,sourcebarcode1, 3uM F
+K6,K,6,ML-9Â·HCl,I14,ML-9Â·HCl,2400,3uM,sourcebarcode1, 3uM F
+K8,K,8,2-Aminopurine,I16,2-Aminopurine,2400,3uM,sourcebarcode1, 3uM F
+K9,K,9,Rapamycin,O16,Rapamycin,2400,3uM,sourcebarcode1, 3uM F
+K11,K,11,AGK2,J07,AGK2,2400,3uM,sourcebarcode1, 3uM F
+K12,K,12,HA-1004Â·HCl,A18,HA-1004Â·HCl,2400,3uM,sourcebarcode1, 3uM F
+K13,K,13,3.4-Dichloroisocoumarin,A23,3.4-Dichloroisocoumarin,2400,3uM,sourcebarcode1, 3uM F
+K15,K,15,AG-370,G06,AG-370,2400,3uM,sourcebarcode1, 3uM F
+K16,K,16,Lavendustin A,C18,Lavendustin A,2400,3uM,sourcebarcode1, 3uM F
+K17,K,17,BML-265,O14,BML-265,2400,3uM,sourcebarcode1, 3uM F
+K19,K,19,Y-27632Â·2HCl,M22,Y-27632Â·2HCl,2400,3uM,sourcebarcode1, 3uM F
+L5,L,5,Cilastatin,I07,Cilastatin,2400,3uM,sourcebarcode1, 3uM F
+L6,L,6,SC-514,O08,SC-514,2400,3uM,sourcebarcode1, 3uM F
+L8,L,8,Apicidin,B11,Apicidin,2400,3uM,sourcebarcode1, 3uM F
+L9,L,9,Z-PLG-NHOH,G05,Z-PLG-NHOH,2400,3uM,sourcebarcode1, 3uM F
+L10,L,10,E-64-d,A09,E-64-d,2400,3uM,sourcebarcode1, 3uM F
+L11,L,11,Apigenin,O12,Apigenin,2400,3uM,sourcebarcode1, 3uM F
+L12,L,12,Apstatin,G13,Apstatin,2400,3uM,sourcebarcode1, 3uM F
+L13,L,13,Erbstatin analog,A22,Erbstatin analog,2400,3uM,sourcebarcode1, 3uM F
+L14,L,14,CI-994,H05,CI-994,2400,3uM,sourcebarcode1, 3uM F
+L15,L,15,GW 5074,K16,GW 5074,2400,3uM,sourcebarcode1, 3uM F
+L16,L,16,PP2,K08,PP2,2400,3uM,sourcebarcode1, 3uM F
+L17,L,17,Aminoresveratrol sulfate,H09,Aminoresveratrol sulfate,2400,3uM,sourcebarcode1, 3uM F
+L19,L,19,GM 6001,C07,GM 6001,2400,3uM,sourcebarcode1, 3uM F
+M5,M,5,Ro 31-8220 mesylate,G18,Ro 31-8220 mesylate,2400,3uM,sourcebarcode1, 3uM F
+M6,M,6,PD-98059,A12,PD-98059,2400,3uM,sourcebarcode1, 3uM F
+M8,M,8,2.4-Pyridinedicarboxylic Acid,H23,2.4-Pyridinedicarboxylic Acid,2400,3uM,sourcebarcode1, 3uM F
+M9,M,9,Suramin·6Na,F23,Suramin·6Na,2400,3uM,sourcebarcode1, 3uM F
+M10,M,10,ML-7Â·HCl,I12,ML-7Â·HCl,2400,3uM,sourcebarcode1, 3uM F
+M11,M,11,RG-1462,C20,RG-1462,2400,3uM,sourcebarcode1, 3uM F
+M12,M,12,D-erythro-Sphingosine,G20,D-erythro-Sphingosine,2400,3uM,sourcebarcode1, 3uM F
+M13,M,13,Triacetylresveratrol,H13,Triacetylresveratrol,2400,3uM,sourcebarcode1, 3uM F
+M14,M,14,Captopril,C23,Captopril,2400,3uM,sourcebarcode1, 3uM F
+M15,M,15,TYRPHOSTIN AG 1288,E10,TYRPHOSTIN AG 1288,2400,3uM,sourcebarcode1, 3uM F
+M16,M,16,NNGH,C09,NNGH,2400,3uM,sourcebarcode1, 3uM F
+M17,M,17,H-8,G24,H-8,2400,3uM,sourcebarcode1, 3uM F
+M19,M,19,Tazobactam,I19,Tazobactam,2400,3uM,sourcebarcode1, 3uM F
+N5,N,5,PKC-412,E20,PKC-412,2400,3uM,sourcebarcode1, 3uM F
+N6,N,6,HA-1077Â·2HCl,O18,HA-1077Â·2HCl,2400,3uM,sourcebarcode1, 3uM F
+N8,N,8,5-Iodotubericidin,A20,5-Iodotubericidin,2400,3uM,sourcebarcode1, 3uM F
+N9,N,9,Hypericin,G16,Hypericin,2400,3uM,sourcebarcode1, 3uM F
+N10,N,10,Z-Prolyl-prolinal,E07,Z-Prolyl-prolinal,2400,3uM,sourcebarcode1, 3uM F
+N11,N,11,Roscovitine,I24,Roscovitine,2400,3uM,sourcebarcode1, 3uM F
+N12,N,12,NSC-3852,H07,NSC-3852,2400,3uM,sourcebarcode1, 3uM F
+N13,N,13,2.2'.3.3'.4.4'-Hexahydroxy-1.1'-biphenyl-6.6'-dimethanol dimethyl ether,M14,2.2'.3.3'.4.4'-Hexahydroxy-1.1'-biphenyl-6.6'-dimethanol dimethyl ether,2400,3uM,sourcebarcode1, 3uM F
+N14,N,14,BML-259,O10,BML-259,2400,3uM,sourcebarcode1, 3uM F
+N15,N,15,SB-202190,K06,SB-202190,2400,3uM,sourcebarcode1, 3uM F
+N16,N,16,4-Amino-D. L-benzylsuccinic acid,G19,4-Amino-D. L-benzylsuccinic acid,2400,3uM,sourcebarcode1, 3uM F
+N17,N,17,TYRPHOSTIN AG 1295,E14,TYRPHOSTIN AG 1295,2400,3uM,sourcebarcode1, 3uM F
+N19,N,19,Salermide,F05,Salermide,2400,3uM,sourcebarcode1, 3uM F
+O5,O,5,5-Aza-2'-deoxycytidine,B19,5-Aza-2'-deoxycytidine,2400,3uM,sourcebarcode1, 3uM F
+O6,O,6,Enalapril,I05,Enalapril,2400,3uM,sourcebarcode1, 3uM F
+O8,O,8,PMSF,C17,PMSF,2400,3uM,sourcebarcode1, 3uM F
+O9,O,9,MG-132,C13,MG-132,2400,3uM,sourcebarcode1, 3uM F
+O10,O,10,M-344,D15,M-344,2400,3uM,sourcebarcode1, 3uM F
+O11,O,11,Olomoucine,I20,Olomoucine,2400,3uM,sourcebarcode1, 3uM F
+O12,O,12,BML-278,H21,BML-278,2400,3uM,sourcebarcode1, 3uM F
+O13,O,13,2-Hydroxy-5-(2.5-dihydroxybenzylamino)benzoic acid,I06,2-Hydroxy-5-(2.5-dihydroxybenzylamino)benzoic acid,2400,3uM,sourcebarcode1, 3uM F
+O14,O,14,Garcinol,B05,Garcinol,2400,3uM,sourcebarcode1, 3uM F
+O15,O,15,KN-93,I10,KN-93,2400,3uM,sourcebarcode1, 3uM F
+O16,O,16,EX-527,D11,EX-527,2400,3uM,sourcebarcode1, 3uM F
+I7,I,7,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+J7,J,7,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+K7,K,7,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+L7,L,7,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+M7,M,7,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+N7,N,7,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+O7,O,7,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+B9,B,9,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+C9,C,9,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+D9,D,9,DMSO,A4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+E9,E,9,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+F9,F,9,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+G9,G,9,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+H9,H,9,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+B14,B,14,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+C14,C,14,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+D14,D,14,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+E14,E,14,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+F14,F,14,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+G14,G,14,DMSO,B4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+H18,H,18,DMSO,C4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+I18,I,18,DMSO,C4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+J18,J,18,DMSO,C4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+K18,K,18,DMSO,C4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+L18,L,18,DMSO,C4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+M18,M,18,DMSO,C4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+N18,N,18,DMSO,C4,DMSO,2400,3uM,sourcebarcode1, 3uM F
+B5,B,5,BAY 11-7082,M10,BAY 11-7082,800,1uM,sourcebarcode1,1uM F
+B6,B,6,BML-244,E15,BML-244,800,1uM,sourcebarcode1,1uM F
+B7,B,7,Wortmannin,G12,Wortmannin,800,1uM,sourcebarcode1,1uM F
+B8,B,8,Pepstatin A,A21,Pepstatin A,800,1uM,sourcebarcode1,1uM F
+B10,B,10,N-Ethylmaleimide,G21,N-Ethylmaleimide,800,1uM,sourcebarcode1,1uM F
+B11,B,11,Nullscript,B17,Nullscript,800,1uM,sourcebarcode1,1uM F
+B12,B,12,P32/98 hemifumarate salt,E21,P32/98 hemifumarate salt,800,1uM,sourcebarcode1,1uM F
+B13,B,13,Resveratrol,D13,Resveratrol,800,1uM,sourcebarcode1,1uM F
+B15,B,15,H-89Â·2HCl,G22,H-89Â·2HCl,800,1uM,sourcebarcode1,1uM F
+B16,B,16,Fumagillin,E17,Fumagillin,800,1uM,sourcebarcode1,1uM F
+B17,B,17,Epigallocatechin gallate,C05,Epigallocatechin gallate,800,1uM,sourcebarcode1,1uM F
+B18,B,18,TYRPHOSTIN 47,A08,TYRPHOSTIN 47,800,1uM,sourcebarcode1,1uM F
+B19,B,19,Trichostatin A,H15,Trichostatin A,800,1uM,sourcebarcode1,1uM F
+B20,B,20,CA-074,A15,CA-074,800,1uM,sourcebarcode1,1uM F
+C5,C,5,TYRPHOSTIN 23,C22,TYRPHOSTIN 23,800,1uM,sourcebarcode1,1uM F
+C6,C,6,AAF-CMK,C15,AAF-CMK,800,1uM,sourcebarcode1,1uM F
+C7,C,7,AEBSF·HCl,G11,AEBSF·HCl,800,1uM,sourcebarcode1,1uM F
+C8,C,8,PEmptyK,E05,PEmptyK,800,1uM,sourcebarcode1,1uM F
+C10,C,10,Bestatin·HCl,C19,Bestatin·HCl,800,1uM,sourcebarcode1,1uM F
+C11,C,11,Piceatannol,D21,Piceatannol,800,1uM,sourcebarcode1,1uM F
+C12,C,12,Valproic acid hydroxamate,H19,Valproic acid hydroxamate,800,1uM,sourcebarcode1,1uM F
+C13,C,13,Calpeptin,I21,Calpeptin,800,1uM,sourcebarcode1,1uM F
+C15,C,15,Calpain Inhibitor II (ALLM),I11,Calpain Inhibitor II (ALLM),800,1uM,sourcebarcode1,1uM F
+C16,C,16,E-64,A05,E-64,800,1uM,sourcebarcode1,1uM F
+C17,C,17,KN-62,I08,KN-62,800,1uM,sourcebarcode1,1uM F
+C18,C,18,Sirtinol,F21,Sirtinol,800,1uM,sourcebarcode1,1uM F
+C19,C,19,NCH-51,J09,NCH-51,800,1uM,sourcebarcode1,1uM F
+D5,D,5,Staurosporine,C12,Staurosporine,800,1uM,sourcebarcode1,1uM F
+D6,D,6,TYRPHOSTIN 25,C24,TYRPHOSTIN 25,800,1uM,sourcebarcode1,1uM F
+D7,D,7,Valproic acid,D09,Valproic acid,800,1uM,sourcebarcode1,1uM F
+D8,D,8,AG-825,C16,AG-825,800,1uM,sourcebarcode1,1uM F
+D10,D,10,5.6-dichloro-1-Î²-D-ribofuranosylbenzimidazole,M12,5.6-dichloro-1-Î²-D-ribofuranosylbenzimidazole,800,1uM,sourcebarcode1,1uM F
+D11,D,11,H-9Â·HCl,C10,H-9Â·HCl,800,1uM,sourcebarcode1,1uM F
+D12,D,12,BIX-01294,F13,BIX-01294,800,1uM,sourcebarcode1,1uM F
+D13,D,13,SU1498,M06,SU1498,800,1uM,sourcebarcode1,1uM F
+D15,D,15,Oxamflatin,F19,Oxamflatin,800,1uM,sourcebarcode1,1uM F
+D16,D,16,BML-257,O06,BML-257,800,1uM,sourcebarcode1,1uM F
+D17,D,17,Phenylbutyrate·Na,D05,Phenylbutyrate·Na,800,1uM,sourcebarcode1,1uM F
+D18,D,18,Indirubin,M18,Indirubin,800,1uM,sourcebarcode1,1uM F
+D19,D,19,Daidzein,K24,Daidzein,800,1uM,sourcebarcode1,1uM F
+E5,E,5,Argatroban,G15,Argatroban,800,1uM,sourcebarcode1,1uM F
+E7,E,7,Isonicotinamide,H17,Isonicotinamide,800,1uM,sourcebarcode1,1uM F
+E8,E,8,PKSI-527,I09,PKSI-527,800,1uM,sourcebarcode1,1uM F
+E10,E,10,TLCK·HCl,E11,TLCK·HCl,800,1uM,sourcebarcode1,1uM F
+E11,E,11,Dec-RVKR-CMK,K07,Dec-RVKR-CMK,800,1uM,sourcebarcode1,1uM F
+E12,E,12,SP 600125,M16,SP 600125,800,1uM,sourcebarcode1,1uM F
+E13,E,13,Genistein,K22,Genistein,800,1uM,sourcebarcode1,1uM F
+E15,E,15,URB-597,G17,URB-597,800,1uM,sourcebarcode1,1uM F
+E16,E,16,TYRPHOSTIN 9,E16,TYRPHOSTIN 9,800,1uM,sourcebarcode1,1uM F
+E17,E,17,5-Nitroisatin,E19,5-Nitroisatin,800,1uM,sourcebarcode1,1uM F
+E18,E,18,TYRPHOSTIN 1,E08,TYRPHOSTIN 1,800,1uM,sourcebarcode1,1uM F
+E19,E,19,Z-VAD-FMK,G09,Z-VAD-FMK,800,1uM,sourcebarcode1,1uM F
+F5,F,5,AG-494,C14,AG-494,800,1uM,sourcebarcode1,1uM F
+F6,F,6,Butyrolactone 3,F15,Butyrolactone 3,800,1uM,sourcebarcode1,1uM F
+F7,F,7,Palmitoyl-DL-carnitine,K18,Palmitoyl-DL-carnitine,800,1uM,sourcebarcode1,1uM F
+F8,F,8,Z-FA-FMK,G07,Z-FA-FMK,800,1uM,sourcebarcode1,1uM F
+F10,F,10,LY 294002,G10,LY 294002,800,1uM,sourcebarcode1,1uM F
+F11,F,11,ZM 336372,K10,ZM 336372,800,1uM,sourcebarcode1,1uM F
+F12,F,12,Lisinopril,K09,Lisinopril,800,1uM,sourcebarcode1,1uM F
+F13,F,13,AG-1296,K14,AG-1296,800,1uM,sourcebarcode1,1uM F
+F15,F,15,N9-isopropyl-olomoucine,I18,N9-isopropyl-olomoucine,800,1uM,sourcebarcode1,1uM F
+F16,F,16,SU 4312,K12,SU 4312,800,1uM,sourcebarcode1,1uM F
+F17,F,17,SAHA,B23,SAHA,800,1uM,sourcebarcode1,1uM F
+F18,F,18,BML-266,D19,BML-266,800,1uM,sourcebarcode1,1uM F
+F19,F,19,Boc-Gly-Val-Val-CHO,C21,Boc-Gly-Val-Val-CHO,800,1uM,sourcebarcode1,1uM F
+G5,G,5,B2,F11,B2,800,1uM,sourcebarcode1,1uM F
+G6,G,6,Actinonin,I13,Actinonin,800,1uM,sourcebarcode1,1uM F
+G7,G,7,Suberoyl bis-hydroxamic acid,B13,Suberoyl bis-hydroxamic acid,800,1uM,sourcebarcode1,1uM F
+G8,G,8,Nafamostat mesylate,E23,Nafamostat mesylate,800,1uM,sourcebarcode1,1uM F
+G10,G,10,ITSA-1,J05,ITSA-1,800,1uM,sourcebarcode1,1uM F
+G11,G,11,Gliotoxin,C11,Gliotoxin,800,1uM,sourcebarcode1,1uM F
+G12,G,12,LFM-A13,O20,LFM-A13,800,1uM,sourcebarcode1,1uM F
+G13,G,13,CA-074 Me,A17,CA-074 Me,800,1uM,sourcebarcode1,1uM F
+G15,G,15,U-0126,A06,U-0126,800,1uM,sourcebarcode1,1uM F
+G17,G,17,Fluoro-SAHA,D23,Fluoro-SAHA,800,1uM,sourcebarcode1,1uM F
+G18,G,18,TPCK,E13,TPCK,800,1uM,sourcebarcode1,1uM F
+G19,G,19,Hydroxy-2-naphthalenylmethylphosphonic acid,E18,Hydroxy-2-naphthalenylmethylphosphonic acid,800,1uM,sourcebarcode1,1uM F
+H5,H,5,Phosphoramidon,K05,Phosphoramidon,800,1uM,sourcebarcode1,1uM F
+H6,H,6,Rottlerin,K20,Rottlerin,800,1uM,sourcebarcode1,1uM F
+H7,H,7,GF 109203X,G14,GF 109203X,800,1uM,sourcebarcode1,1uM F
+H8,H,8,Acivicin,G23,Acivicin,800,1uM,sourcebarcode1,1uM F
+H10,H,10,Elastatinal,I15,Elastatinal,800,1uM,sourcebarcode1,1uM F
+H11,H,11,Piceatannol,E22,Piceatannol,800,1uM,sourcebarcode1,1uM F
+H12,H,12,Splitomicin,B07,Splitomicin,800,1uM,sourcebarcode1,1uM F
+H13,H,13,BML-281,H11,BML-281,800,1uM,sourcebarcode1,1uM F
+H14,H,14,Scriptaid,B15,Scriptaid,800,1uM,sourcebarcode1,1uM F
+H15,H,15,E-64-C,A07,E-64-C,800,1uM,sourcebarcode1,1uM F
+H16,H,16,Tranylcypromine hemisulfate,D07,Tranylcypromine hemisulfate,800,1uM,sourcebarcode1,1uM F
+H17,H,17,TYRPHOSTIN 46,A14,TYRPHOSTIN 46,800,1uM,sourcebarcode1,1uM F
+H19,H,19,Terreic acid,A24,Terreic acid,800,1uM,sourcebarcode1,1uM F
+I5,I,5,AG-126,A10,AG-126,800,1uM,sourcebarcode1,1uM F
+I6,I,6,CTPB,F17,CTPB,800,1uM,sourcebarcode1,1uM F
+I9,I,9,TYRPHOSTIN 51,E06,TYRPHOSTIN 51,800,1uM,sourcebarcode1,1uM F
+I10,I,10,Iso-olomoucine,I22,Iso-olomoucine,800,1uM,sourcebarcode1,1uM F
+I11,I,11,SB-203580,C06,SB-203580,800,1uM,sourcebarcode1,1uM F
+I12,I,12,MDL-28170,A11,MDL-28170,800,1uM,sourcebarcode1,1uM F
+I13,I,13,ZM 449829,M08,ZM 449829,800,1uM,sourcebarcode1,1uM F
+I14,I,14,Triciribine,O24,Triciribine,800,1uM,sourcebarcode1,1uM F
+I15,I,15,DL-Thiorphan,E09,DL-Thiorphan,800,1uM,sourcebarcode1,1uM F
+I16,I,16,CL-82198·HCl,I23,CL-82198·HCl,800,1uM,sourcebarcode1,1uM F
+I17,I,17,Z-Leu-Leu-CHO,A13,Z-Leu-Leu-CHO,800,1uM,sourcebarcode1,1uM F
+I19,I,19,Anacardic acid,F09,Anacardic acid,800,1uM,sourcebarcode1,1uM F
+J5,J,5,TYRPHOSTIN AG 1478,E12,TYRPHOSTIN AG 1478,800,1uM,sourcebarcode1,1uM F
+J6,J,6,PP1,E24,PP1,800,1uM,sourcebarcode1,1uM F
+J8,J,8,QuercetinÂ·2H2O,O22,QuercetinÂ·2H2O,800,1uM,sourcebarcode1,1uM F
+J9,J,9,H-7Â·2HCl,C08,H-7Â·2HCl,800,1uM,sourcebarcode1,1uM F
+J10,J,10,AG-879,G08,AG-879,800,1uM,sourcebarcode1,1uM F
+J11,J,11,BML-210,B09,BML-210,800,1uM,sourcebarcode1,1uM F
+J12,J,12,NapSul-Ile-Trp-CHO,A19,NapSul-Ile-Trp-CHO,800,1uM,sourcebarcode1,1uM F
+J13,J,13,AG-490,A16,AG-490,800,1uM,sourcebarcode1,1uM F
+J14,J,14,Kenpaullone,M24,Kenpaullone,800,1uM,sourcebarcode1,1uM F
+J15,J,15,Indirubin-3'-monooxime,M20,Indirubin-3'-monooxime,800,1uM,sourcebarcode1,1uM F
+J16,J,16,Gabexate mesylate,I17,Gabexate mesylate,800,1uM,sourcebarcode1,1uM F
+J17,J,17,Zebularine,B21,Zebularine,800,1uM,sourcebarcode1,1uM F
+J19,J,19,Nicotinamide,D17,Nicotinamide,800,1uM,sourcebarcode1,1uM F
+K5,K,5,MC-1293,F07,MC-1293,800,1uM,sourcebarcode1,1uM F
+K6,K,6,ML-9Â·HCl,I14,ML-9Â·HCl,800,1uM,sourcebarcode1,1uM F
+K8,K,8,2-Aminopurine,I16,2-Aminopurine,800,1uM,sourcebarcode1,1uM F
+K9,K,9,Rapamycin,O16,Rapamycin,800,1uM,sourcebarcode1,1uM F
+K11,K,11,AGK2,J07,AGK2,800,1uM,sourcebarcode1,1uM F
+K12,K,12,HA-1004Â·HCl,A18,HA-1004Â·HCl,800,1uM,sourcebarcode1,1uM F
+K13,K,13,3.4-Dichloroisocoumarin,A23,3.4-Dichloroisocoumarin,800,1uM,sourcebarcode1,1uM F
+K15,K,15,AG-370,G06,AG-370,800,1uM,sourcebarcode1,1uM F
+K16,K,16,Lavendustin A,C18,Lavendustin A,800,1uM,sourcebarcode1,1uM F
+K17,K,17,BML-265,O14,BML-265,800,1uM,sourcebarcode1,1uM F
+K19,K,19,Y-27632Â·2HCl,M22,Y-27632Â·2HCl,800,1uM,sourcebarcode1,1uM F
+L5,L,5,Cilastatin,I07,Cilastatin,800,1uM,sourcebarcode1,1uM F
+L6,L,6,SC-514,O08,SC-514,800,1uM,sourcebarcode1,1uM F
+L8,L,8,Apicidin,B11,Apicidin,800,1uM,sourcebarcode1,1uM F
+L9,L,9,Z-PLG-NHOH,G05,Z-PLG-NHOH,800,1uM,sourcebarcode1,1uM F
+L10,L,10,E-64-d,A09,E-64-d,800,1uM,sourcebarcode1,1uM F
+L11,L,11,Apigenin,O12,Apigenin,800,1uM,sourcebarcode1,1uM F
+L12,L,12,Apstatin,G13,Apstatin,800,1uM,sourcebarcode1,1uM F
+L13,L,13,Erbstatin analog,A22,Erbstatin analog,800,1uM,sourcebarcode1,1uM F
+L14,L,14,CI-994,H05,CI-994,800,1uM,sourcebarcode1,1uM F
+L15,L,15,GW 5074,K16,GW 5074,800,1uM,sourcebarcode1,1uM F
+L16,L,16,PP2,K08,PP2,800,1uM,sourcebarcode1,1uM F
+L17,L,17,Aminoresveratrol sulfate,H09,Aminoresveratrol sulfate,800,1uM,sourcebarcode1,1uM F
+L19,L,19,GM 6001,C07,GM 6001,800,1uM,sourcebarcode1,1uM F
+M5,M,5,Ro 31-8220 mesylate,G18,Ro 31-8220 mesylate,800,1uM,sourcebarcode1,1uM F
+M6,M,6,PD-98059,A12,PD-98059,800,1uM,sourcebarcode1,1uM F
+M8,M,8,2.4-Pyridinedicarboxylic Acid,H23,2.4-Pyridinedicarboxylic Acid,800,1uM,sourcebarcode1,1uM F
+M9,M,9,Suramin·6Na,F23,Suramin·6Na,800,1uM,sourcebarcode1,1uM F
+M10,M,10,ML-7Â·HCl,I12,ML-7Â·HCl,800,1uM,sourcebarcode1,1uM F
+M11,M,11,RG-1462,C20,RG-1462,800,1uM,sourcebarcode1,1uM F
+M12,M,12,D-erythro-Sphingosine,G20,D-erythro-Sphingosine,800,1uM,sourcebarcode1,1uM F
+M13,M,13,Triacetylresveratrol,H13,Triacetylresveratrol,800,1uM,sourcebarcode1,1uM F
+M14,M,14,Captopril,C23,Captopril,800,1uM,sourcebarcode1,1uM F
+M15,M,15,TYRPHOSTIN AG 1288,E10,TYRPHOSTIN AG 1288,800,1uM,sourcebarcode1,1uM F
+M16,M,16,NNGH,C09,NNGH,800,1uM,sourcebarcode1,1uM F
+M17,M,17,H-8,G24,H-8,800,1uM,sourcebarcode1,1uM F
+M19,M,19,Tazobactam,I19,Tazobactam,800,1uM,sourcebarcode1,1uM F
+N5,N,5,PKC-412,E20,PKC-412,800,1uM,sourcebarcode1,1uM F
+N6,N,6,HA-1077Â·2HCl,O18,HA-1077Â·2HCl,800,1uM,sourcebarcode1,1uM F
+N8,N,8,5-Iodotubericidin,A20,5-Iodotubericidin,800,1uM,sourcebarcode1,1uM F
+N9,N,9,Hypericin,G16,Hypericin,800,1uM,sourcebarcode1,1uM F
+N10,N,10,Z-Prolyl-prolinal,E07,Z-Prolyl-prolinal,800,1uM,sourcebarcode1,1uM F
+N11,N,11,Roscovitine,I24,Roscovitine,800,1uM,sourcebarcode1,1uM F
+N12,N,12,NSC-3852,H07,NSC-3852,800,1uM,sourcebarcode1,1uM F
+N13,N,13,2.2'.3.3'.4.4'-Hexahydroxy-1.1'-biphenyl-6.6'-dimethanol dimethyl ether,M14,2.2'.3.3'.4.4'-Hexahydroxy-1.1'-biphenyl-6.6'-dimethanol dimethyl ether,800,1uM,sourcebarcode1,1uM F
+N14,N,14,BML-259,O10,BML-259,800,1uM,sourcebarcode1,1uM F
+N15,N,15,SB-202190,K06,SB-202190,800,1uM,sourcebarcode1,1uM F
+N16,N,16,4-Amino-D. L-benzylsuccinic acid,G19,4-Amino-D. L-benzylsuccinic acid,800,1uM,sourcebarcode1,1uM F
+N17,N,17,TYRPHOSTIN AG 1295,E14,TYRPHOSTIN AG 1295,800,1uM,sourcebarcode1,1uM F
+N19,N,19,Salermide,F05,Salermide,800,1uM,sourcebarcode1,1uM F
+O5,O,5,5-Aza-2'-deoxycytidine,B19,5-Aza-2'-deoxycytidine,800,1uM,sourcebarcode1,1uM F
+O6,O,6,Enalapril,I05,Enalapril,800,1uM,sourcebarcode1,1uM F
+O8,O,8,PMSF,C17,PMSF,800,1uM,sourcebarcode1,1uM F
+O9,O,9,MG-132,C13,MG-132,800,1uM,sourcebarcode1,1uM F
+O10,O,10,M-344,D15,M-344,800,1uM,sourcebarcode1,1uM F
+O11,O,11,Olomoucine,I20,Olomoucine,800,1uM,sourcebarcode1,1uM F
+O12,O,12,BML-278,H21,BML-278,800,1uM,sourcebarcode1,1uM F
+O13,O,13,2-Hydroxy-5-(2.5-dihydroxybenzylamino)benzoic acid,I06,2-Hydroxy-5-(2.5-dihydroxybenzylamino)benzoic acid,800,1uM,sourcebarcode1,1uM F
+O14,O,14,Garcinol,B05,Garcinol,800,1uM,sourcebarcode1,1uM F
+O15,O,15,KN-93,I10,KN-93,800,1uM,sourcebarcode1,1uM F
+O16,O,16,EX-527,D11,EX-527,800,1uM,sourcebarcode1,1uM F
+I7,I,7,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+J7,J,7,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+K7,K,7,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+L7,L,7,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+M7,M,7,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+N7,N,7,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+O7,O,7,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+B9,B,9,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+C9,C,9,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+D9,D,9,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+E9,E,9,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+F9,F,9,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+G9,G,9,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+H9,H,9,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+B14,B,14,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+C14,C,14,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+D14,D,14,DMSO,D4,DMSO,800,1uM,sourcebarcode1,1uM F
+E14,E,14,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+F14,F,14,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+G14,G,14,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+H18,H,18,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+I18,I,18,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+J18,J,18,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+K18,K,18,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+L18,L,18,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+M18,M,18,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+N18,N,18,DMSO,E4,DMSO,800,1uM,sourcebarcode1,1uM F
+B5,B,5,BAY 11-7082,M10,BAY 11-7082,2400,3uM,sourcebarcode1, 3uM D
+B6,B,6,BML-244,E15,BML-244,2400,3uM,sourcebarcode1, 3uM D
+B7,B,7,Wortmannin,G12,Wortmannin,2400,3uM,sourcebarcode1, 3uM D
+B8,B,8,Pepstatin A,A21,Pepstatin A,2400,3uM,sourcebarcode1, 3uM D
+B10,B,10,N-Ethylmaleimide,G21,N-Ethylmaleimide,2400,3uM,sourcebarcode1, 3uM D
+B11,B,11,Nullscript,B17,Nullscript,2400,3uM,sourcebarcode1, 3uM D
+B12,B,12,P32/98 hemifumarate salt,E21,P32/98 hemifumarate salt,2400,3uM,sourcebarcode1, 3uM D
+B13,B,13,Resveratrol,D13,Resveratrol,2400,3uM,sourcebarcode1, 3uM D
+B15,B,15,H-89Â·2HCl,G22,H-89Â·2HCl,2400,3uM,sourcebarcode1, 3uM D
+B16,B,16,Fumagillin,E17,Fumagillin,2400,3uM,sourcebarcode1, 3uM D
+B17,B,17,Epigallocatechin gallate,C05,Epigallocatechin gallate,2400,3uM,sourcebarcode1, 3uM D
+B18,B,18,TYRPHOSTIN 47,A08,TYRPHOSTIN 47,2400,3uM,sourcebarcode1, 3uM D
+B19,B,19,Trichostatin A,H15,Trichostatin A,2400,3uM,sourcebarcode1, 3uM D
+B20,B,20,CA-074,A15,CA-074,2400,3uM,sourcebarcode1, 3uM D
+C5,C,5,TYRPHOSTIN 23,C22,TYRPHOSTIN 23,2400,3uM,sourcebarcode1, 3uM D
+C6,C,6,AAF-CMK,C15,AAF-CMK,2400,3uM,sourcebarcode1, 3uM D
+C7,C,7,AEBSF·HCl,G11,AEBSF·HCl,2400,3uM,sourcebarcode1, 3uM D
+C8,C,8,PEmptyK,E05,PEmptyK,2400,3uM,sourcebarcode1, 3uM D
+C10,C,10,Bestatin·HCl,C19,Bestatin·HCl,2400,3uM,sourcebarcode1, 3uM D
+C11,C,11,Piceatannol,D21,Piceatannol,2400,3uM,sourcebarcode1, 3uM D
+C12,C,12,Valproic acid hydroxamate,H19,Valproic acid hydroxamate,2400,3uM,sourcebarcode1, 3uM D
+C13,C,13,Calpeptin,I21,Calpeptin,2400,3uM,sourcebarcode1, 3uM D
+C15,C,15,Calpain Inhibitor II (ALLM),I11,Calpain Inhibitor II (ALLM),2400,3uM,sourcebarcode1, 3uM D
+C16,C,16,E-64,A05,E-64,2400,3uM,sourcebarcode1, 3uM D
+C17,C,17,KN-62,I08,KN-62,2400,3uM,sourcebarcode1, 3uM D
+C18,C,18,Sirtinol,F21,Sirtinol,2400,3uM,sourcebarcode1, 3uM D
+C19,C,19,NCH-51,J09,NCH-51,2400,3uM,sourcebarcode1, 3uM D
+D5,D,5,Staurosporine,C12,Staurosporine,2400,3uM,sourcebarcode1, 3uM D
+D6,D,6,TYRPHOSTIN 25,C24,TYRPHOSTIN 25,2400,3uM,sourcebarcode1, 3uM D
+D7,D,7,Valproic acid,D09,Valproic acid,2400,3uM,sourcebarcode1, 3uM D
+D8,D,8,AG-825,C16,AG-825,2400,3uM,sourcebarcode1, 3uM D
+D10,D,10,5.6-dichloro-1-Î²-D-ribofuranosylbenzimidazole,M12,5.6-dichloro-1-Î²-D-ribofuranosylbenzimidazole,2400,3uM,sourcebarcode1, 3uM D
+D11,D,11,H-9Â·HCl,C10,H-9Â·HCl,2400,3uM,sourcebarcode1, 3uM D
+D12,D,12,BIX-01294,F13,BIX-01294,2400,3uM,sourcebarcode1, 3uM D
+D13,D,13,SU1498,M06,SU1498,2400,3uM,sourcebarcode1, 3uM D
+D15,D,15,Oxamflatin,F19,Oxamflatin,2400,3uM,sourcebarcode1, 3uM D
+D16,D,16,BML-257,O06,BML-257,2400,3uM,sourcebarcode1, 3uM D
+D17,D,17,Phenylbutyrate·Na,D05,Phenylbutyrate·Na,2400,3uM,sourcebarcode1, 3uM D
+D18,D,18,Indirubin,M18,Indirubin,2400,3uM,sourcebarcode1, 3uM D
+D19,D,19,Daidzein,K24,Daidzein,2400,3uM,sourcebarcode1, 3uM D
+E5,E,5,Argatroban,G15,Argatroban,2400,3uM,sourcebarcode1, 3uM D
+E7,E,7,Isonicotinamide,H17,Isonicotinamide,2400,3uM,sourcebarcode1, 3uM D
+E8,E,8,PKSI-527,I09,PKSI-527,2400,3uM,sourcebarcode1, 3uM D
+E10,E,10,TLCK·HCl,E11,TLCK·HCl,2400,3uM,sourcebarcode1, 3uM D
+E11,E,11,Dec-RVKR-CMK,K07,Dec-RVKR-CMK,2400,3uM,sourcebarcode1, 3uM D
+E12,E,12,SP 600125,M16,SP 600125,2400,3uM,sourcebarcode1, 3uM D
+E13,E,13,Genistein,K22,Genistein,2400,3uM,sourcebarcode1, 3uM D
+E15,E,15,URB-597,G17,URB-597,2400,3uM,sourcebarcode1, 3uM D
+E16,E,16,TYRPHOSTIN 9,E16,TYRPHOSTIN 9,2400,3uM,sourcebarcode1, 3uM D
+E17,E,17,5-Nitroisatin,E19,5-Nitroisatin,2400,3uM,sourcebarcode1, 3uM D
+E18,E,18,TYRPHOSTIN 1,E08,TYRPHOSTIN 1,2400,3uM,sourcebarcode1, 3uM D
+E19,E,19,Z-VAD-FMK,G09,Z-VAD-FMK,2400,3uM,sourcebarcode1, 3uM D
+F5,F,5,AG-494,C14,AG-494,2400,3uM,sourcebarcode1, 3uM D
+F6,F,6,Butyrolactone 3,F15,Butyrolactone 3,2400,3uM,sourcebarcode1, 3uM D
+F7,F,7,Palmitoyl-DL-carnitine,K18,Palmitoyl-DL-carnitine,2400,3uM,sourcebarcode1, 3uM D
+F8,F,8,Z-FA-FMK,G07,Z-FA-FMK,2400,3uM,sourcebarcode1, 3uM D
+F10,F,10,LY 294002,G10,LY 294002,2400,3uM,sourcebarcode1, 3uM D
+F11,F,11,ZM 336372,K10,ZM 336372,2400,3uM,sourcebarcode1, 3uM D
+F12,F,12,Lisinopril,K09,Lisinopril,2400,3uM,sourcebarcode1, 3uM D
+F13,F,13,AG-1296,K14,AG-1296,2400,3uM,sourcebarcode1, 3uM D
+F15,F,15,N9-isopropyl-olomoucine,I18,N9-isopropyl-olomoucine,2400,3uM,sourcebarcode1, 3uM D
+F16,F,16,SU 4312,K12,SU 4312,2400,3uM,sourcebarcode1, 3uM D
+F17,F,17,SAHA,B23,SAHA,2400,3uM,sourcebarcode1, 3uM D
+F18,F,18,BML-266,D19,BML-266,2400,3uM,sourcebarcode1, 3uM D
+F19,F,19,Boc-Gly-Val-Val-CHO,C21,Boc-Gly-Val-Val-CHO,2400,3uM,sourcebarcode1, 3uM D
+G5,G,5,B2,F11,B2,2400,3uM,sourcebarcode1, 3uM D
+G6,G,6,Actinonin,I13,Actinonin,2400,3uM,sourcebarcode1, 3uM D
+G7,G,7,Suberoyl bis-hydroxamic acid,B13,Suberoyl bis-hydroxamic acid,2400,3uM,sourcebarcode1, 3uM D
+G8,G,8,Nafamostat mesylate,E23,Nafamostat mesylate,2400,3uM,sourcebarcode1, 3uM D
+G10,G,10,ITSA-1,J05,ITSA-1,2400,3uM,sourcebarcode1, 3uM D
+G11,G,11,Gliotoxin,C11,Gliotoxin,2400,3uM,sourcebarcode1, 3uM D
+G12,G,12,LFM-A13,O20,LFM-A13,2400,3uM,sourcebarcode1, 3uM D
+G13,G,13,CA-074 Me,A17,CA-074 Me,2400,3uM,sourcebarcode1, 3uM D
+G15,G,15,U-0126,A06,U-0126,2400,3uM,sourcebarcode1, 3uM D
+G17,G,17,Fluoro-SAHA,D23,Fluoro-SAHA,2400,3uM,sourcebarcode1, 3uM D
+G18,G,18,TPCK,E13,TPCK,2400,3uM,sourcebarcode1, 3uM D
+G19,G,19,Hydroxy-2-naphthalenylmethylphosphonic acid,E18,Hydroxy-2-naphthalenylmethylphosphonic acid,2400,3uM,sourcebarcode1, 3uM D
+H5,H,5,Phosphoramidon,K05,Phosphoramidon,2400,3uM,sourcebarcode1, 3uM D
+H6,H,6,Rottlerin,K20,Rottlerin,2400,3uM,sourcebarcode1, 3uM D
+H7,H,7,GF 109203X,G14,GF 109203X,2400,3uM,sourcebarcode1, 3uM D
+H8,H,8,Acivicin,G23,Acivicin,2400,3uM,sourcebarcode1, 3uM D
+H10,H,10,Elastatinal,I15,Elastatinal,2400,3uM,sourcebarcode1, 3uM D
+H11,H,11,Piceatannol,E22,Piceatannol,2400,3uM,sourcebarcode1, 3uM D
+H12,H,12,Splitomicin,B07,Splitomicin,2400,3uM,sourcebarcode1, 3uM D
+H13,H,13,BML-281,H11,BML-281,2400,3uM,sourcebarcode1, 3uM D
+H14,H,14,Scriptaid,B15,Scriptaid,2400,3uM,sourcebarcode1, 3uM D
+H15,H,15,E-64-C,A07,E-64-C,2400,3uM,sourcebarcode1, 3uM D
+H16,H,16,Tranylcypromine hemisulfate,D07,Tranylcypromine hemisulfate,2400,3uM,sourcebarcode1, 3uM D
+H17,H,17,TYRPHOSTIN 46,A14,TYRPHOSTIN 46,2400,3uM,sourcebarcode1, 3uM D
+H19,H,19,Terreic acid,A24,Terreic acid,2400,3uM,sourcebarcode1, 3uM D
+I5,I,5,AG-126,A10,AG-126,2400,3uM,sourcebarcode1, 3uM D
+I6,I,6,CTPB,F17,CTPB,2400,3uM,sourcebarcode1, 3uM D
+I9,I,9,TYRPHOSTIN 51,E06,TYRPHOSTIN 51,2400,3uM,sourcebarcode1, 3uM D
+I10,I,10,Iso-olomoucine,I22,Iso-olomoucine,2400,3uM,sourcebarcode1, 3uM D
+I11,I,11,SB-203580,C06,SB-203580,2400,3uM,sourcebarcode1, 3uM D
+I12,I,12,MDL-28170,A11,MDL-28170,2400,3uM,sourcebarcode1, 3uM D
+I13,I,13,ZM 449829,M08,ZM 449829,2400,3uM,sourcebarcode1, 3uM D
+I14,I,14,Triciribine,O24,Triciribine,2400,3uM,sourcebarcode1, 3uM D
+I15,I,15,DL-Thiorphan,E09,DL-Thiorphan,2400,3uM,sourcebarcode1, 3uM D
+I16,I,16,CL-82198·HCl,I23,CL-82198·HCl,2400,3uM,sourcebarcode1, 3uM D
+I17,I,17,Z-Leu-Leu-CHO,A13,Z-Leu-Leu-CHO,2400,3uM,sourcebarcode1, 3uM D
+I19,I,19,Anacardic acid,F09,Anacardic acid,2400,3uM,sourcebarcode1, 3uM D
+J5,J,5,TYRPHOSTIN AG 1478,E12,TYRPHOSTIN AG 1478,2400,3uM,sourcebarcode1, 3uM D
+J6,J,6,PP1,E24,PP1,2400,3uM,sourcebarcode1, 3uM D
+J8,J,8,QuercetinÂ·2H2O,O22,QuercetinÂ·2H2O,2400,3uM,sourcebarcode1, 3uM D
+J9,J,9,H-7Â·2HCl,C08,H-7Â·2HCl,2400,3uM,sourcebarcode1, 3uM D
+J10,J,10,AG-879,G08,AG-879,2400,3uM,sourcebarcode1, 3uM D
+J11,J,11,BML-210,B09,BML-210,2400,3uM,sourcebarcode1, 3uM D
+J12,J,12,NapSul-Ile-Trp-CHO,A19,NapSul-Ile-Trp-CHO,2400,3uM,sourcebarcode1, 3uM D
+J13,J,13,AG-490,A16,AG-490,2400,3uM,sourcebarcode1, 3uM D
+J14,J,14,Kenpaullone,M24,Kenpaullone,2400,3uM,sourcebarcode1, 3uM D
+J15,J,15,Indirubin-3'-monooxime,M20,Indirubin-3'-monooxime,2400,3uM,sourcebarcode1, 3uM D
+J16,J,16,Gabexate mesylate,I17,Gabexate mesylate,2400,3uM,sourcebarcode1, 3uM D
+J17,J,17,Zebularine,B21,Zebularine,2400,3uM,sourcebarcode1, 3uM D
+J19,J,19,Nicotinamide,D17,Nicotinamide,2400,3uM,sourcebarcode1, 3uM D
+K5,K,5,MC-1293,F07,MC-1293,2400,3uM,sourcebarcode1, 3uM D
+K6,K,6,ML-9Â·HCl,I14,ML-9Â·HCl,2400,3uM,sourcebarcode1, 3uM D
+K8,K,8,2-Aminopurine,I16,2-Aminopurine,2400,3uM,sourcebarcode1, 3uM D
+K9,K,9,Rapamycin,O16,Rapamycin,2400,3uM,sourcebarcode1, 3uM D
+K11,K,11,AGK2,J07,AGK2,2400,3uM,sourcebarcode1, 3uM D
+K12,K,12,HA-1004Â·HCl,A18,HA-1004Â·HCl,2400,3uM,sourcebarcode1, 3uM D
+K13,K,13,3.4-Dichloroisocoumarin,A23,3.4-Dichloroisocoumarin,2400,3uM,sourcebarcode1, 3uM D
+K15,K,15,AG-370,G06,AG-370,2400,3uM,sourcebarcode1, 3uM D
+K16,K,16,Lavendustin A,C18,Lavendustin A,2400,3uM,sourcebarcode1, 3uM D
+K17,K,17,BML-265,O14,BML-265,2400,3uM,sourcebarcode1, 3uM D
+K19,K,19,Y-27632Â·2HCl,M22,Y-27632Â·2HCl,2400,3uM,sourcebarcode1, 3uM D
+L5,L,5,Cilastatin,I07,Cilastatin,2400,3uM,sourcebarcode1, 3uM D
+L6,L,6,SC-514,O08,SC-514,2400,3uM,sourcebarcode1, 3uM D
+L8,L,8,Apicidin,B11,Apicidin,2400,3uM,sourcebarcode1, 3uM D
+L9,L,9,Z-PLG-NHOH,G05,Z-PLG-NHOH,2400,3uM,sourcebarcode1, 3uM D
+L10,L,10,E-64-d,A09,E-64-d,2400,3uM,sourcebarcode1, 3uM D
+L11,L,11,Apigenin,O12,Apigenin,2400,3uM,sourcebarcode1, 3uM D
+L12,L,12,Apstatin,G13,Apstatin,2400,3uM,sourcebarcode1, 3uM D
+L13,L,13,Erbstatin analog,A22,Erbstatin analog,2400,3uM,sourcebarcode1, 3uM D
+L14,L,14,CI-994,H05,CI-994,2400,3uM,sourcebarcode1, 3uM D
+L15,L,15,GW 5074,K16,GW 5074,2400,3uM,sourcebarcode1, 3uM D
+L16,L,16,PP2,K08,PP2,2400,3uM,sourcebarcode1, 3uM D
+L17,L,17,Aminoresveratrol sulfate,H09,Aminoresveratrol sulfate,2400,3uM,sourcebarcode1, 3uM D
+L19,L,19,GM 6001,C07,GM 6001,2400,3uM,sourcebarcode1, 3uM D
+M5,M,5,Ro 31-8220 mesylate,G18,Ro 31-8220 mesylate,2400,3uM,sourcebarcode1, 3uM D
+M6,M,6,PD-98059,A12,PD-98059,2400,3uM,sourcebarcode1, 3uM D
+M8,M,8,2.4-Pyridinedicarboxylic Acid,H23,2.4-Pyridinedicarboxylic Acid,2400,3uM,sourcebarcode1, 3uM D
+M9,M,9,Suramin·6Na,F23,Suramin·6Na,2400,3uM,sourcebarcode1, 3uM D
+M10,M,10,ML-7Â·HCl,I12,ML-7Â·HCl,2400,3uM,sourcebarcode1, 3uM D
+M11,M,11,RG-1462,C20,RG-1462,2400,3uM,sourcebarcode1, 3uM D
+M12,M,12,D-erythro-Sphingosine,G20,D-erythro-Sphingosine,2400,3uM,sourcebarcode1, 3uM D
+M13,M,13,Triacetylresveratrol,H13,Triacetylresveratrol,2400,3uM,sourcebarcode1, 3uM D
+M14,M,14,Captopril,C23,Captopril,2400,3uM,sourcebarcode1, 3uM D
+M15,M,15,TYRPHOSTIN AG 1288,E10,TYRPHOSTIN AG 1288,2400,3uM,sourcebarcode1, 3uM D
+M16,M,16,NNGH,C09,NNGH,2400,3uM,sourcebarcode1, 3uM D
+M17,M,17,H-8,G24,H-8,2400,3uM,sourcebarcode1, 3uM D
+M19,M,19,Tazobactam,I19,Tazobactam,2400,3uM,sourcebarcode1, 3uM D
+N5,N,5,PKC-412,E20,PKC-412,2400,3uM,sourcebarcode1, 3uM D
+N6,N,6,HA-1077Â·2HCl,O18,HA-1077Â·2HCl,2400,3uM,sourcebarcode1, 3uM D
+N8,N,8,5-Iodotubericidin,A20,5-Iodotubericidin,2400,3uM,sourcebarcode1, 3uM D
+N9,N,9,Hypericin,G16,Hypericin,2400,3uM,sourcebarcode1, 3uM D
+N10,N,10,Z-Prolyl-prolinal,E07,Z-Prolyl-prolinal,2400,3uM,sourcebarcode1, 3uM D
+N11,N,11,Roscovitine,I24,Roscovitine,2400,3uM,sourcebarcode1, 3uM D
+N12,N,12,NSC-3852,H07,NSC-3852,2400,3uM,sourcebarcode1, 3uM D
+N13,N,13,2.2'.3.3'.4.4'-Hexahydroxy-1.1'-biphenyl-6.6'-dimethanol dimethyl ether,M14,2.2'.3.3'.4.4'-Hexahydroxy-1.1'-biphenyl-6.6'-dimethanol dimethyl ether,2400,3uM,sourcebarcode1, 3uM D
+N14,N,14,BML-259,O10,BML-259,2400,3uM,sourcebarcode1, 3uM D
+N15,N,15,SB-202190,K06,SB-202190,2400,3uM,sourcebarcode1, 3uM D
+N16,N,16,4-Amino-D. L-benzylsuccinic acid,G19,4-Amino-D. L-benzylsuccinic acid,2400,3uM,sourcebarcode1, 3uM D
+N17,N,17,TYRPHOSTIN AG 1295,E14,TYRPHOSTIN AG 1295,2400,3uM,sourcebarcode1, 3uM D
+N19,N,19,Salermide,F05,Salermide,2400,3uM,sourcebarcode1, 3uM D
+O5,O,5,5-Aza-2'-deoxycytidine,B19,5-Aza-2'-deoxycytidine,2400,3uM,sourcebarcode1, 3uM D
+O6,O,6,Enalapril,I05,Enalapril,2400,3uM,sourcebarcode1, 3uM D
+O8,O,8,PMSF,C17,PMSF,2400,3uM,sourcebarcode1, 3uM D
+O9,O,9,MG-132,C13,MG-132,2400,3uM,sourcebarcode1, 3uM D
+O10,O,10,M-344,D15,M-344,2400,3uM,sourcebarcode1, 3uM D
+O11,O,11,Olomoucine,I20,Olomoucine,2400,3uM,sourcebarcode1, 3uM D
+O12,O,12,BML-278,H21,BML-278,2400,3uM,sourcebarcode1, 3uM D
+O13,O,13,2-Hydroxy-5-(2.5-dihydroxybenzylamino)benzoic acid,I06,2-Hydroxy-5-(2.5-dihydroxybenzylamino)benzoic acid,2400,3uM,sourcebarcode1, 3uM D
+O14,O,14,Garcinol,B05,Garcinol,2400,3uM,sourcebarcode1, 3uM D
+O15,O,15,KN-93,I10,KN-93,2400,3uM,sourcebarcode1, 3uM D
+O16,O,16,EX-527,D11,EX-527,2400,3uM,sourcebarcode1, 3uM D
+I7,I,7,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+J7,J,7,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+K7,K,7,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+L7,L,7,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+M7,M,7,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+N7,N,7,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+O7,O,7,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+B9,B,9,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+C9,C,9,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+D9,D,9,DMSO,F4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+E9,E,9,DMSO,G4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+F9,F,9,DMSO,G4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+G9,G,9,DMSO,G4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+H9,H,9,DMSO,G4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+B14,B,14,DMSO,G4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+C14,C,14,DMSO,G4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+D14,D,14,DMSO,G4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+E14,E,14,DMSO,G4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+F14,F,14,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+G14,G,14,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+H18,H,18,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+I18,I,18,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+J18,J,18,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+K18,K,18,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+L18,L,18,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+M18,M,18,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+N18,N,18,DMSO,H4,DMSO,2400,3uM,sourcebarcode1, 3uM D
+B5,B,5,BAY 11-7082,M10,BAY 11-7082,800,1uM,sourcebarcode1,1uM D
+B6,B,6,BML-244,E15,BML-244,800,1uM,sourcebarcode1,1uM D
+B7,B,7,Wortmannin,G12,Wortmannin,800,1uM,sourcebarcode1,1uM D
+B8,B,8,Pepstatin A,A21,Pepstatin A,800,1uM,sourcebarcode1,1uM D
+B10,B,10,N-Ethylmaleimide,G21,N-Ethylmaleimide,800,1uM,sourcebarcode1,1uM D
+B11,B,11,Nullscript,B17,Nullscript,800,1uM,sourcebarcode1,1uM D
+B12,B,12,P32/98 hemifumarate salt,E21,P32/98 hemifumarate salt,800,1uM,sourcebarcode1,1uM D
+B13,B,13,Resveratrol,D13,Resveratrol,800,1uM,sourcebarcode1,1uM D
+B15,B,15,H-89Â·2HCl,G22,H-89Â·2HCl,800,1uM,sourcebarcode1,1uM D
+B16,B,16,Fumagillin,E17,Fumagillin,800,1uM,sourcebarcode1,1uM D
+B17,B,17,Epigallocatechin gallate,C05,Epigallocatechin gallate,800,1uM,sourcebarcode1,1uM D
+B18,B,18,TYRPHOSTIN 47,A08,TYRPHOSTIN 47,800,1uM,sourcebarcode1,1uM D
+B19,B,19,Trichostatin A,H15,Trichostatin A,800,1uM,sourcebarcode1,1uM D
+B20,B,20,CA-074,A15,CA-074,800,1uM,sourcebarcode1,1uM D
+C5,C,5,TYRPHOSTIN 23,C22,TYRPHOSTIN 23,800,1uM,sourcebarcode1,1uM D
+C6,C,6,AAF-CMK,C15,AAF-CMK,800,1uM,sourcebarcode1,1uM D
+C7,C,7,AEBSF·HCl,G11,AEBSF·HCl,800,1uM,sourcebarcode1,1uM D
+C8,C,8,PEmptyK,E05,PEmptyK,800,1uM,sourcebarcode1,1uM D
+C10,C,10,Bestatin·HCl,C19,Bestatin·HCl,800,1uM,sourcebarcode1,1uM D
+C11,C,11,Piceatannol,D21,Piceatannol,800,1uM,sourcebarcode1,1uM D
+C12,C,12,Valproic acid hydroxamate,H19,Valproic acid hydroxamate,800,1uM,sourcebarcode1,1uM D
+C13,C,13,Calpeptin,I21,Calpeptin,800,1uM,sourcebarcode1,1uM D
+C15,C,15,Calpain Inhibitor II (ALLM),I11,Calpain Inhibitor II (ALLM),800,1uM,sourcebarcode1,1uM D
+C16,C,16,E-64,A05,E-64,800,1uM,sourcebarcode1,1uM D
+C17,C,17,KN-62,I08,KN-62,800,1uM,sourcebarcode1,1uM D
+C18,C,18,Sirtinol,F21,Sirtinol,800,1uM,sourcebarcode1,1uM D
+C19,C,19,NCH-51,J09,NCH-51,800,1uM,sourcebarcode1,1uM D
+D5,D,5,Staurosporine,C12,Staurosporine,800,1uM,sourcebarcode1,1uM D
+D6,D,6,TYRPHOSTIN 25,C24,TYRPHOSTIN 25,800,1uM,sourcebarcode1,1uM D
+D7,D,7,Valproic acid,D09,Valproic acid,800,1uM,sourcebarcode1,1uM D
+D8,D,8,AG-825,C16,AG-825,800,1uM,sourcebarcode1,1uM D
+D10,D,10,5.6-dichloro-1-Î²-D-ribofuranosylbenzimidazole,M12,5.6-dichloro-1-Î²-D-ribofuranosylbenzimidazole,800,1uM,sourcebarcode1,1uM D
+D11,D,11,H-9Â·HCl,C10,H-9Â·HCl,800,1uM,sourcebarcode1,1uM D
+D12,D,12,BIX-01294,F13,BIX-01294,800,1uM,sourcebarcode1,1uM D
+D13,D,13,SU1498,M06,SU1498,800,1uM,sourcebarcode1,1uM D
+D15,D,15,Oxamflatin,F19,Oxamflatin,800,1uM,sourcebarcode1,1uM D
+D16,D,16,BML-257,O06,BML-257,800,1uM,sourcebarcode1,1uM D
+D17,D,17,Phenylbutyrate·Na,D05,Phenylbutyrate·Na,800,1uM,sourcebarcode1,1uM D
+D18,D,18,Indirubin,M18,Indirubin,800,1uM,sourcebarcode1,1uM D
+D19,D,19,Daidzein,K24,Daidzein,800,1uM,sourcebarcode1,1uM D
+E5,E,5,Argatroban,G15,Argatroban,800,1uM,sourcebarcode1,1uM D
+E7,E,7,Isonicotinamide,H17,Isonicotinamide,800,1uM,sourcebarcode1,1uM D
+E8,E,8,PKSI-527,I09,PKSI-527,800,1uM,sourcebarcode1,1uM D
+E10,E,10,TLCK·HCl,E11,TLCK·HCl,800,1uM,sourcebarcode1,1uM D
+E11,E,11,Dec-RVKR-CMK,K07,Dec-RVKR-CMK,800,1uM,sourcebarcode1,1uM D
+E12,E,12,SP 600125,M16,SP 600125,800,1uM,sourcebarcode1,1uM D
+E13,E,13,Genistein,K22,Genistein,800,1uM,sourcebarcode1,1uM D
+E15,E,15,URB-597,G17,URB-597,800,1uM,sourcebarcode1,1uM D
+E16,E,16,TYRPHOSTIN 9,E16,TYRPHOSTIN 9,800,1uM,sourcebarcode1,1uM D
+E17,E,17,5-Nitroisatin,E19,5-Nitroisatin,800,1uM,sourcebarcode1,1uM D
+E18,E,18,TYRPHOSTIN 1,E08,TYRPHOSTIN 1,800,1uM,sourcebarcode1,1uM D
+E19,E,19,Z-VAD-FMK,G09,Z-VAD-FMK,800,1uM,sourcebarcode1,1uM D
+F5,F,5,AG-494,C14,AG-494,800,1uM,sourcebarcode1,1uM D
+F6,F,6,Butyrolactone 3,F15,Butyrolactone 3,800,1uM,sourcebarcode1,1uM D
+F7,F,7,Palmitoyl-DL-carnitine,K18,Palmitoyl-DL-carnitine,800,1uM,sourcebarcode1,1uM D
+F8,F,8,Z-FA-FMK,G07,Z-FA-FMK,800,1uM,sourcebarcode1,1uM D
+F10,F,10,LY 294002,G10,LY 294002,800,1uM,sourcebarcode1,1uM D
+F11,F,11,ZM 336372,K10,ZM 336372,800,1uM,sourcebarcode1,1uM D
+F12,F,12,Lisinopril,K09,Lisinopril,800,1uM,sourcebarcode1,1uM D
+F13,F,13,AG-1296,K14,AG-1296,800,1uM,sourcebarcode1,1uM D
+F15,F,15,N9-isopropyl-olomoucine,I18,N9-isopropyl-olomoucine,800,1uM,sourcebarcode1,1uM D
+F16,F,16,SU 4312,K12,SU 4312,800,1uM,sourcebarcode1,1uM D
+F17,F,17,SAHA,B23,SAHA,800,1uM,sourcebarcode1,1uM D
+F18,F,18,BML-266,D19,BML-266,800,1uM,sourcebarcode1,1uM D
+F19,F,19,Boc-Gly-Val-Val-CHO,C21,Boc-Gly-Val-Val-CHO,800,1uM,sourcebarcode1,1uM D
+G5,G,5,B2,F11,B2,800,1uM,sourcebarcode1,1uM D
+G6,G,6,Actinonin,I13,Actinonin,800,1uM,sourcebarcode1,1uM D
+G7,G,7,Suberoyl bis-hydroxamic acid,B13,Suberoyl bis-hydroxamic acid,800,1uM,sourcebarcode1,1uM D
+G8,G,8,Nafamostat mesylate,E23,Nafamostat mesylate,800,1uM,sourcebarcode1,1uM D
+G10,G,10,ITSA-1,J05,ITSA-1,800,1uM,sourcebarcode1,1uM D
+G11,G,11,Gliotoxin,C11,Gliotoxin,800,1uM,sourcebarcode1,1uM D
+G12,G,12,LFM-A13,O20,LFM-A13,800,1uM,sourcebarcode1,1uM D
+G13,G,13,CA-074 Me,A17,CA-074 Me,800,1uM,sourcebarcode1,1uM D
+G15,G,15,U-0126,A06,U-0126,800,1uM,sourcebarcode1,1uM D
+G17,G,17,Fluoro-SAHA,D23,Fluoro-SAHA,800,1uM,sourcebarcode1,1uM D
+G18,G,18,TPCK,E13,TPCK,800,1uM,sourcebarcode1,1uM D
+G19,G,19,Hydroxy-2-naphthalenylmethylphosphonic acid,E18,Hydroxy-2-naphthalenylmethylphosphonic acid,800,1uM,sourcebarcode1,1uM D
+H5,H,5,Phosphoramidon,K05,Phosphoramidon,800,1uM,sourcebarcode1,1uM D
+H6,H,6,Rottlerin,K20,Rottlerin,800,1uM,sourcebarcode1,1uM D
+H7,H,7,GF 109203X,G14,GF 109203X,800,1uM,sourcebarcode1,1uM D
+H8,H,8,Acivicin,G23,Acivicin,800,1uM,sourcebarcode1,1uM D
+H10,H,10,Elastatinal,I15,Elastatinal,800,1uM,sourcebarcode1,1uM D
+H11,H,11,Piceatannol,E22,Piceatannol,800,1uM,sourcebarcode1,1uM D
+H12,H,12,Splitomicin,B07,Splitomicin,800,1uM,sourcebarcode1,1uM D
+H13,H,13,BML-281,H11,BML-281,800,1uM,sourcebarcode1,1uM D
+H14,H,14,Scriptaid,B15,Scriptaid,800,1uM,sourcebarcode1,1uM D
+H15,H,15,E-64-C,A07,E-64-C,800,1uM,sourcebarcode1,1uM D
+H16,H,16,Tranylcypromine hemisulfate,D07,Tranylcypromine hemisulfate,800,1uM,sourcebarcode1,1uM D
+H17,H,17,TYRPHOSTIN 46,A14,TYRPHOSTIN 46,800,1uM,sourcebarcode1,1uM D
+H19,H,19,Terreic acid,A24,Terreic acid,800,1uM,sourcebarcode1,1uM D
+I5,I,5,AG-126,A10,AG-126,800,1uM,sourcebarcode1,1uM D
+I6,I,6,CTPB,F17,CTPB,800,1uM,sourcebarcode1,1uM D
+I9,I,9,TYRPHOSTIN 51,E06,TYRPHOSTIN 51,800,1uM,sourcebarcode1,1uM D
+I10,I,10,Iso-olomoucine,I22,Iso-olomoucine,800,1uM,sourcebarcode1,1uM D
+I11,I,11,SB-203580,C06,SB-203580,800,1uM,sourcebarcode1,1uM D
+I12,I,12,MDL-28170,A11,MDL-28170,800,1uM,sourcebarcode1,1uM D
+I13,I,13,ZM 449829,M08,ZM 449829,800,1uM,sourcebarcode1,1uM D
+I14,I,14,Triciribine,O24,Triciribine,800,1uM,sourcebarcode1,1uM D
+I15,I,15,DL-Thiorphan,E09,DL-Thiorphan,800,1uM,sourcebarcode1,1uM D
+I16,I,16,CL-82198·HCl,I23,CL-82198·HCl,800,1uM,sourcebarcode1,1uM D
+I17,I,17,Z-Leu-Leu-CHO,A13,Z-Leu-Leu-CHO,800,1uM,sourcebarcode1,1uM D
+I19,I,19,Anacardic acid,F09,Anacardic acid,800,1uM,sourcebarcode1,1uM D
+J5,J,5,TYRPHOSTIN AG 1478,E12,TYRPHOSTIN AG 1478,800,1uM,sourcebarcode1,1uM D
+J6,J,6,PP1,E24,PP1,800,1uM,sourcebarcode1,1uM D
+J8,J,8,QuercetinÂ·2H2O,O22,QuercetinÂ·2H2O,800,1uM,sourcebarcode1,1uM D
+J9,J,9,H-7Â·2HCl,C08,H-7Â·2HCl,800,1uM,sourcebarcode1,1uM D
+J10,J,10,AG-879,G08,AG-879,800,1uM,sourcebarcode1,1uM D
+J11,J,11,BML-210,B09,BML-210,800,1uM,sourcebarcode1,1uM D
+J12,J,12,NapSul-Ile-Trp-CHO,A19,NapSul-Ile-Trp-CHO,800,1uM,sourcebarcode1,1uM D
+J13,J,13,AG-490,A16,AG-490,800,1uM,sourcebarcode1,1uM D
+J14,J,14,Kenpaullone,M24,Kenpaullone,800,1uM,sourcebarcode1,1uM D
+J15,J,15,Indirubin-3'-monooxime,M20,Indirubin-3'-monooxime,800,1uM,sourcebarcode1,1uM D
+J16,J,16,Gabexate mesylate,I17,Gabexate mesylate,800,1uM,sourcebarcode1,1uM D
+J17,J,17,Zebularine,B21,Zebularine,800,1uM,sourcebarcode1,1uM D
+J19,J,19,Nicotinamide,D17,Nicotinamide,800,1uM,sourcebarcode1,1uM D
+K5,K,5,MC-1293,F07,MC-1293,800,1uM,sourcebarcode1,1uM D
+K6,K,6,ML-9Â·HCl,I14,ML-9Â·HCl,800,1uM,sourcebarcode1,1uM D
+K8,K,8,2-Aminopurine,I16,2-Aminopurine,800,1uM,sourcebarcode1,1uM D
+K9,K,9,Rapamycin,O16,Rapamycin,800,1uM,sourcebarcode1,1uM D
+K11,K,11,AGK2,J07,AGK2,800,1uM,sourcebarcode1,1uM D
+K12,K,12,HA-1004Â·HCl,A18,HA-1004Â·HCl,800,1uM,sourcebarcode1,1uM D
+K13,K,13,3.4-Dichloroisocoumarin,A23,3.4-Dichloroisocoumarin,800,1uM,sourcebarcode1,1uM D
+K15,K,15,AG-370,G06,AG-370,800,1uM,sourcebarcode1,1uM D
+K16,K,16,Lavendustin A,C18,Lavendustin A,800,1uM,sourcebarcode1,1uM D
+K17,K,17,BML-265,O14,BML-265,800,1uM,sourcebarcode1,1uM D
+K19,K,19,Y-27632Â·2HCl,M22,Y-27632Â·2HCl,800,1uM,sourcebarcode1,1uM D
+L5,L,5,Cilastatin,I07,Cilastatin,800,1uM,sourcebarcode1,1uM D
+L6,L,6,SC-514,O08,SC-514,800,1uM,sourcebarcode1,1uM D
+L8,L,8,Apicidin,B11,Apicidin,800,1uM,sourcebarcode1,1uM D
+L9,L,9,Z-PLG-NHOH,G05,Z-PLG-NHOH,800,1uM,sourcebarcode1,1uM D
+L10,L,10,E-64-d,A09,E-64-d,800,1uM,sourcebarcode1,1uM D
+L11,L,11,Apigenin,O12,Apigenin,800,1uM,sourcebarcode1,1uM D
+L12,L,12,Apstatin,G13,Apstatin,800,1uM,sourcebarcode1,1uM D
+L13,L,13,Erbstatin analog,A22,Erbstatin analog,800,1uM,sourcebarcode1,1uM D
+L14,L,14,CI-994,H05,CI-994,800,1uM,sourcebarcode1,1uM D
+L15,L,15,GW 5074,K16,GW 5074,800,1uM,sourcebarcode1,1uM D
+L16,L,16,PP2,K08,PP2,800,1uM,sourcebarcode1,1uM D
+L17,L,17,Aminoresveratrol sulfate,H09,Aminoresveratrol sulfate,800,1uM,sourcebarcode1,1uM D
+L19,L,19,GM 6001,C07,GM 6001,800,1uM,sourcebarcode1,1uM D
+M5,M,5,Ro 31-8220 mesylate,G18,Ro 31-8220 mesylate,800,1uM,sourcebarcode1,1uM D
+M6,M,6,PD-98059,A12,PD-98059,800,1uM,sourcebarcode1,1uM D
+M8,M,8,2.4-Pyridinedicarboxylic Acid,H23,2.4-Pyridinedicarboxylic Acid,800,1uM,sourcebarcode1,1uM D
+M9,M,9,Suramin·6Na,F23,Suramin·6Na,800,1uM,sourcebarcode1,1uM D
+M10,M,10,ML-7Â·HCl,I12,ML-7Â·HCl,800,1uM,sourcebarcode1,1uM D
+M11,M,11,RG-1462,C20,RG-1462,800,1uM,sourcebarcode1,1uM D
+M12,M,12,D-erythro-Sphingosine,G20,D-erythro-Sphingosine,800,1uM,sourcebarcode1,1uM D
+M13,M,13,Triacetylresveratrol,H13,Triacetylresveratrol,800,1uM,sourcebarcode1,1uM D
+M14,M,14,Captopril,C23,Captopril,800,1uM,sourcebarcode1,1uM D
+M15,M,15,TYRPHOSTIN AG 1288,E10,TYRPHOSTIN AG 1288,800,1uM,sourcebarcode1,1uM D
+M16,M,16,NNGH,C09,NNGH,800,1uM,sourcebarcode1,1uM D
+M17,M,17,H-8,G24,H-8,800,1uM,sourcebarcode1,1uM D
+M19,M,19,Tazobactam,I19,Tazobactam,800,1uM,sourcebarcode1,1uM D
+N5,N,5,PKC-412,E20,PKC-412,800,1uM,sourcebarcode1,1uM D
+N6,N,6,HA-1077Â·2HCl,O18,HA-1077Â·2HCl,800,1uM,sourcebarcode1,1uM D
+N8,N,8,5-Iodotubericidin,A20,5-Iodotubericidin,800,1uM,sourcebarcode1,1uM D
+N9,N,9,Hypericin,G16,Hypericin,800,1uM,sourcebarcode1,1uM D
+N10,N,10,Z-Prolyl-prolinal,E07,Z-Prolyl-prolinal,800,1uM,sourcebarcode1,1uM D
+N11,N,11,Roscovitine,I24,Roscovitine,800,1uM,sourcebarcode1,1uM D
+N12,N,12,NSC-3852,H07,NSC-3852,800,1uM,sourcebarcode1,1uM D
+N13,N,13,2.2'.3.3'.4.4'-Hexahydroxy-1.1'-biphenyl-6.6'-dimethanol dimethyl ether,M14,2.2'.3.3'.4.4'-Hexahydroxy-1.1'-biphenyl-6.6'-dimethanol dimethyl ether,800,1uM,sourcebarcode1,1uM D
+N14,N,14,BML-259,O10,BML-259,800,1uM,sourcebarcode1,1uM D
+N15,N,15,SB-202190,K06,SB-202190,800,1uM,sourcebarcode1,1uM D
+N16,N,16,4-Amino-D. L-benzylsuccinic acid,G19,4-Amino-D. L-benzylsuccinic acid,800,1uM,sourcebarcode1,1uM D
+N17,N,17,TYRPHOSTIN AG 1295,E14,TYRPHOSTIN AG 1295,800,1uM,sourcebarcode1,1uM D
+N19,N,19,Salermide,F05,Salermide,800,1uM,sourcebarcode1,1uM D
+O5,O,5,5-Aza-2'-deoxycytidine,B19,5-Aza-2'-deoxycytidine,800,1uM,sourcebarcode1,1uM D
+O6,O,6,Enalapril,I05,Enalapril,800,1uM,sourcebarcode1,1uM D
+O8,O,8,PMSF,C17,PMSF,800,1uM,sourcebarcode1,1uM D
+O9,O,9,MG-132,C13,MG-132,800,1uM,sourcebarcode1,1uM D
+O10,O,10,M-344,D15,M-344,800,1uM,sourcebarcode1,1uM D
+O11,O,11,Olomoucine,I20,Olomoucine,800,1uM,sourcebarcode1,1uM D
+O12,O,12,BML-278,H21,BML-278,800,1uM,sourcebarcode1,1uM D
+O13,O,13,2-Hydroxy-5-(2.5-dihydroxybenzylamino)benzoic acid,I06,2-Hydroxy-5-(2.5-dihydroxybenzylamino)benzoic acid,800,1uM,sourcebarcode1,1uM D
+O14,O,14,Garcinol,B05,Garcinol,800,1uM,sourcebarcode1,1uM D
+O15,O,15,KN-93,I10,KN-93,800,1uM,sourcebarcode1,1uM D
+O16,O,16,EX-527,D11,EX-527,800,1uM,sourcebarcode1,1uM D
+I7,I,7,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+J7,J,7,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+K7,K,7,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+L7,L,7,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+M7,M,7,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+N7,N,7,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+O7,O,7,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+B9,B,9,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+C9,C,9,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+D9,D,9,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+E9,E,9,DMSO,I4,DMSO,800,1uM,sourcebarcode1,1uM D
+F9,F,9,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+G9,G,9,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+H9,H,9,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+B14,B,14,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+C14,C,14,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+D14,D,14,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+E14,E,14,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+F14,F,14,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+G14,G,14,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+H18,H,18,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+I18,I,18,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+J18,J,18,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+K18,K,18,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+L18,L,18,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+M18,M,18,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
+N18,N,18,DMSO,J4,DMSO,800,1uM,sourcebarcode1,1uM D
