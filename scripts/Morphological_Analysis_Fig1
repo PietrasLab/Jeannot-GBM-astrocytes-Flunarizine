@@ -49,6 +49,8 @@ AggData_IF76_IR <- AggData_IF76_IR  %>% select(Group.1, Group.2, Sample_names,  
                                      Texture_Correlation_Phalloidin_12_00_256, Texture_InfoMeas1_Phalloidin_12_00_256, Texture_InfoMeas2_Phalloidin_12_00_256, Texture_Correlation_Vimentin_12_00_256, Texture_Entropy_Vimentin_12_00_256, Texture_InfoMeas1_Vimentin_12_00_256, Texture_SumVariance_Vimentin_12_00_256, 
                                      Intensity_MeanIntensity_DNA, Intensity_MassDisplacement_DNA, Intensity_StdIntensity_DNA) # select the variables that will be used to do the PCA
 PCA_IR <- AggData_IF76_IR %>% select(-Group.1, -Group.2, -Sample_names) %>% PCA(scale.unit = TRUE, graph = TRUE)
+custom_pal <- pal_uchicago("default", alpha = 0.5)(9)
+IR_pal_ordered <- custom_pal[c(4, 3, 4, 3, 2, 9)] 
 Plot_PCA_IR <- fviz_pca_ind(PCA_IR,  geom.ind = "point", label="none",
                                  pointsize=4, pointshape=19, 
                                  col.ind = AggData_IF76_IR$Sample_names, mean.point=FALSE,
