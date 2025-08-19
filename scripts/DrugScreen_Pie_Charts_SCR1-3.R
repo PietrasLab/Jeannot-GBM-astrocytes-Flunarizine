@@ -81,7 +81,7 @@ SCR1_PieChart <- SCR1_summary %>%
   scale_fill_manual(values = custom_order_colors) +
   theme_void()+
   ggtitle("PKE library")
-ggsave(file="Fig1C_SCR1_PieChart.pdf", SCR1_PieChart, path = "./results/", height = 3, width = 4)
+ggsave(file="Fig2C_SCR1_PieChart.pdf", SCR1_PieChart, path = "./results/", height = 3, width = 4)
 rm(SCR1_AllData, SCR1_AllData_Any_Cn, SCR1_comp_list, SCR1_PieChart, SCR1_summary)
 
 ## SCR2 ##
@@ -135,7 +135,7 @@ SCR2_PieChart <- SCR2_summary %>%
   scale_fill_manual(values = custom_order_colors) +
   theme_void()+
   ggtitle("Anti-cancer drugs library")
-ggsave(file="Fig1C_SCR2_PieChart.pdf", SCR2_PieChart, path = "./results/", height = 3, width = 4)
+ggsave(file="Fig2C_SCR2_PieChart.pdf", SCR2_PieChart, path = "./results/", height = 3, width = 4)
 rm(SCR2_AllData, SCR2_AllData_Any_Cn, SCR2_comp_list, SCR2_PieChart, SCR2_summary)
 
 ## SCR3 ##
@@ -192,7 +192,7 @@ SCR3_PieChart <- SCR3_summary %>%
   scale_fill_manual(values = custom_order_colors) +
   theme_void()+
   ggtitle("FDA-approved drugs library")
-ggsave(file="Fig1C_SCR3_PieChart.pdf", SCR3_PieChart, path = "./results/", height = 3, width = 4)
+ggsave(file="Fig2C_SCR3_PieChart.pdf", SCR3_PieChart, path = "./results/", height = 3, width = 4)
 
 # ---- Make pie charts for SCR3 hits - therapeutic classes ----
 SCR3_hits_only <- SCR3_comp_list %>% filter(Hit_batch == "Hit for 2 batches")
@@ -232,7 +232,7 @@ SCR3_PieChart_ther_group <- SCR3_summary_Therapeutic_group %>%
   scale_fill_manual(values = custom_pal_ordered) +
   theme_void()+
   ggtitle("Therapeutic classes")
-ggsave(file="Fig1C_SCR3_PieChart_ther_class.pdf", SCR3_PieChart_ther_group, path = "./results/", height = 3, width = 4)
+ggsave(file="Fig2C_SCR3_PieChart_ther_class.pdf", SCR3_PieChart_ther_group, path = "./results/", height = 3, width = 4)
 
 
 
