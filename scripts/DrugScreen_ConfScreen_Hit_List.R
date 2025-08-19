@@ -174,7 +174,7 @@ hist_DS_AllBatches <- All_batches %>% ggplot(aes(x=Mean_DistanceScore_AllB_no_J)
     legend.background = element_rect(fill = "transparent"), # get rid of legend bg
     legend.box.background = element_rect(fill = "transparent") # get rid of legend panel bg
   )
-ggsave(file="Supp5B_SCR4_hist_DS_AllBatches_noJ.pdf", hist_DS_AllBatches, path = "../figs/", width = 4, height=3)
+ggsave(file="Supp5B_SCR4_hist_DS_AllBatches_noJ.pdf", hist_DS_AllBatches, path = "./results/", width = 4, height=3)
 
 # ---- Create a new table with compounds appearing only once for those that are hits with different concentrations ---- 
 Hit_List_individual_compounds <- All_batches %>% filter(Mean_DistanceScore_AllB_no_J <0.7) %>% ddply("Compound", nrow)
