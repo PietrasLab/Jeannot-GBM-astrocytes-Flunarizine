@@ -38,10 +38,10 @@ Cells <- Cells %>% mutate(nb= 1:nrow(Cells))
 Cytoplasm <- Cytoplasm %>% mutate(nb= 1:nrow(Cells))
 AllData <- merge(Nuclei, Cells, by.x = "nb", by.y = "nb", suffixes = c("_N","_C"))
 AllData <- merge(AllData, Cytoplasm, by.x = "nb", by.y = "nb", suffixes = c("","_Cy"))
-AllDataAgg <- AllData %>% aggregate(by=list(Astrocyte, Treatment), FUN= mean)
+AllDataAgg <- AllData %>% aggregate(by=list(AllData$Astrocyte, AllData$Treatment), FUN= mean)
 
 # ---- PCA 3 Gy hAstro vs iPSC  ---- 
-AggData_IF76_IR <- AggData_IF76 %>% filter(Group.2 %in% c("Ctl", "IR3Gy"))
+AggData_IF76_IR <- AllDataAgg %>% filter(Group.2 %in% c("Ctl", "IR3Gy"))
 AggData_IF76_IR <- AggData_IF76_IR %>% mutate(Sample_names= str_c(Group.1, Group.2, sep = " ")) #Add name of samples
 AggData_IF76_IR <- AggData_IF76_IR  %>% select(Group.1, Group.2, Sample_names,   AreaShape_BoundingBoxArea_N, AreaShape_CentralMoment_0_0_N, AreaShape_Eccentricity_N, AreaShape_FormFactor_N, AreaShape_HuMoment_0_N, AreaShape_InertiaTensorEigenvalues_0_N, AreaShape_InertiaTensor_0_0_N, AreaShape_SpatialMoment_0_0_N, AreaShape_Zernike_0_0_N, 
                                      AreaShape_Area_C, AreaShape_CentralMoment_0_0_C, AreaShape_Compactness_C, AreaShape_EquivalentDiameter_C, AreaShape_InertiaTensorEigenvalues_1_C, AreaShape_MajorAxisLength_C, AreaShape_Perimeter_C, AreaShape_SpatialMoment_0_0_C, AreaShape_Zernike_2_0_C, Intensity_MeanIntensity_GFAP_C, Intensity_StdIntensity_GFAP_C, Intensity_IntegratedIntensity_Phalloidin_C, Intensity_MassDisplacement_Phalloidin_C, 
