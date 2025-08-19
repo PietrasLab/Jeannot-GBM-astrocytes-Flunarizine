@@ -24,8 +24,8 @@ SCR3_AstroD_Pears <- read.delim("./data/Scr3FDAAstroDAggData_Pearson_WithControl
 SCR3_AstroF_Pears <- read.delim("./data/Scr3FDAAstroFAggData_Pearson_WithControls.txt")
 
 # ---- Import compounds lists ----
-SCR1_comp_list <- read.csv("./data/Scr#1_PKE_library/SCR1_picklist_PKE_150621.csv")
-SCR2_comp_list <- read.csv("./data/Scr#2_TargetMol_library/Analysis_pictures_from_Image_Xpress/Plate_annotation/SCR2_picklist_targetmol_allplates.csv", sep=";")
+SCR1_comp_list <- read.csv("./data/SCR1_PKE_library/SCR1_picklist_PKE_150621.csv")
+SCR2_comp_list <- read.csv("./data/SCR2_TargetMol_library/Analysis_pictures_from_Image_Xpress/Plate_annotation/SCR2_picklist_targetmol_allplates.csv", sep=";")
 load("./data/SCR3_PrestWNumb_to_ChemName_only_used_compounds.rda")
 SCR3_comp_list <- PrestWNumb_to_ChemName
 rm(PrestWNumb_to_ChemName)
