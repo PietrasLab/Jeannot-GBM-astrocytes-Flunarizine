@@ -1,6 +1,7 @@
 # ================================================================
 # Title: Morphological_Analysis_Fig1
-# Description: Pipeline
+# Description: Pipeline to make morphological analysis on astrocytes used in Fig1.
+# The code provided here stands as an example and is the one used to make Fig 1F
 # ================================================================
 
 # ---- Load libraries ----
