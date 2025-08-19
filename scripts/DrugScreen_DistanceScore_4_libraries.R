@@ -121,9 +121,9 @@ rm(SCR3_AstroD_Pears)
 rm(SCR3_AstroF_Pears)
 
 # ---- Save csv files for SCR1, SCR2, SCR3 ---- 
-SCR1 %>% arrange(Compound) %>% write.csv(file = "SCR1_PKE_Library.csv")  
-SCR2 %>% arrange(Compound) %>% write.csv(file = "SCR2_AntiCancer_Drug_Library.csv")  
-SCR3 %>% arrange(Compound) %>% write.csv(file = "SCR3_FDA_Approved_Compounds_Library.csv")  
+SCR1 %>% arrange(Compound) %>% write.csv(file = "./results/SuppTable3_SCR1_PKE_Library.csv")  
+SCR2 %>% arrange(Compound) %>% write.csv(file = "./results/SuppTable4_SCR2_AntiCancer_Drug_Library.csv")  
+SCR3 %>% arrange(Compound) %>% write.csv(file = "./results/SuppTable5_SCR3_FDA_Approved_Compounds_Library.csv")  
 
 # ---- Join all libraries except SCR4 ---- 
 pre_All_Libraries <- full_join(SCR1, SCR2)
@@ -173,14 +173,6 @@ Boxplot_AllLibraries  <- All_librairies %>% mutate(Category = fct_relevel(Catego
   ) +
   scale_color_manual(values = custom_order_colors)
 ggsave(file="Fig2B_DistanceScore_All_Libraries.pdf", Boxplot_AllLibraries, path = "./results/", bg = "transparent", height = 4, width = 6)
-
-# ---- Save the .csv files with distance scores for each screen ----
-All_librairies  %>% filter(Library == "PKE library") %>%
-  write.csv(file = "./results/SuppTable3_SCR1_PKE_Library.csv")
-All_librairies  %>% filter(Library == "Anti Cancer Drug Library") %>%
-  write.csv(file = "./results/SuppTable4_SCR2_AntiCancer_Drug_Library.csv")
-All_librairies  %>% filter(Library == "FDA Approved Drugs Library") %>%
-  write.csv(file = "./results/SuppTable5_SCR3_FDA_Approved_Compounds_Library.csv")
 
 # Plot Distance score confirmation screening SCR4
 BoxPlot_SCR4  <- SCR4 %>% mutate(Category = fct_relevel(Category, "IR- DMSO", "IR+ DMSO", "IR+ Compounds")) %>%
