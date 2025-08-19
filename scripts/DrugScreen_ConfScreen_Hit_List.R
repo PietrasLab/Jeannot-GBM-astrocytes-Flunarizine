@@ -1,7 +1,7 @@
 # ================================================================
 # Title: DrugScreen_Hit_List
 # Description: Code to produce the final hit lists and the pie chart to visualize their distribution
-# (Fig 2F, Supp. 5B, Supp. table 6)
+# (Fig. 2F, Supp. Fig. 5B, Supp. table 6)
 # ================================================================
 
 # ---- Load libraries ----
