@@ -4,7 +4,7 @@ title: "Code for: Phenotypic Screening Identifies Flunarizine as an Inhibitor of
 version: 1.0.0
 date-released: 2025-08-18
 repository-code: "https://github.com/PietrasLab/Jeannot-GBM-astrocytes-Flunarizine"
-url: "https://github.com/PietrasLab/Jeannot-GBM-astrocytes-Flunarizine"
+url: "https://github.com/PietrasLab
 identifiers:
   - type: doi
     value: "10.1101/2025.07.12.664538"
@@ -12,17 +12,19 @@ identifiers:
   - type: url
     value: "https://www.biorxiv.org/content/10.1101/2025.07.12.664538v1"
     description: "bioRxiv landing page"
-license: "MIT"
+license: MIT
 preferred-citation:
   type: article
   title: "Phenotypic Screening Identifies Flunarizine as an Inhibitor of Radiotherapy-Induced Astrocyte Reactivity with Therapeutic Potential in Glioblastoma"
   authors:
     - family-names: "Jeannot"
       given-names: "Pauline"
+      orcid: "https://orcid.org/0000-0003-0158-440X"
     - family-names: "Rosberg"
       given-names: "Rebecca"
     - family-names: "Lindgren"
       given-names: "David"
+      orcid: "https://orcid.org/0009-0008-4321-2229"
     - family-names: "Dawson"
       given-names: "John C."
     - family-names: "Pracucci"
@@ -51,6 +53,7 @@ preferred-citation:
       given-names: "Neil O."
     - family-names: "Pietras"
       given-names: "Alexander"
+      orcid: "https://orcid.org/0000-0002-5783-9347
   doi: "10.1101/2025.07.12.664538"
   journal: "bioRxiv"
   date-published: 2025-07-17
