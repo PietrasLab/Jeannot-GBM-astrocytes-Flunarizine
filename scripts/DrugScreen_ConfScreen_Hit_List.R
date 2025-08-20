@@ -106,10 +106,10 @@ AstroJ_rep <- AstroJ_rep %>% mutate(Compound= Compound_rep1, Concentration=Conce
 rm(AstroG_A, AstroG_B, AstroH_A, AstroH_B, AstroI_A, AstroI_B, AstroJ_A, AstroJ_B, AstroG_Pears, AstroH_Pears, AstroI_Pears, AstroJ_Pears)
 
 # ---- Calculate the mean Distance score ---- 
-AstroG_rep <- AstroG_rep %>% rowwise() %>% mutate(Mean_DistanceScore = mean(c(DistanceScore_rep1, DistanceScore_rep2), na.rm = TRUE))
-AstroH_rep <- AstroH_rep %>% rowwise() %>% mutate(Mean_DistanceScore = mean(c(DistanceScore_rep1, DistanceScore_rep2), na.rm = TRUE))
-AstroI_rep <- AstroI_rep %>% rowwise() %>% mutate(Mean_DistanceScore = mean(c(DistanceScore_rep1, DistanceScore_rep2), na.rm = TRUE))
-AstroJ_rep <- AstroJ_rep %>% rowwise() %>% mutate(Mean_DistanceScore = mean(c(DistanceScore_rep1, DistanceScore_rep2), na.rm = TRUE))
+AstroG_rep <- AstroG_rep %>%  mutate(Mean_DistanceScore = rowMeans(select(., DistanceScore_rep1, DistanceScore_rep2), na.rm = TRUE))
+AstroH_rep <- AstroH_rep %>%  mutate(Mean_DistanceScore = rowMeans(select(., DistanceScore_rep1, DistanceScore_rep2), na.rm = TRUE))
+AstroI_rep <- AstroI_rep %>%  mutate(Mean_DistanceScore = rowMeans(select(., DistanceScore_rep1, DistanceScore_rep2), na.rm = TRUE))
+AstroJ_rep <- AstroJ_rep %>%  mutate(Mean_DistanceScore = rowMeans(select(., DistanceScore_rep1, DistanceScore_rep2), na.rm = TRUE))
 
 # ---- Merge the df for all batches and calculate the mean distance score ---- 
 preAstroG <- AstroG_rep %>% mutate(Mean_DistanceScore_G = Mean_DistanceScore) %>% 
@@ -130,14 +130,14 @@ All_batches <- All_batches %>% select(-Compound, -Concentration)
 All_batches[c("Compound", "Concentration")] <- str_split_fixed(All_batches$Compound_Cn, "_", 2)
 
 # ---- Calculate Mean Distance Score across batches ---- 
-All_batches <- All_batches %>% rowwise() %>% mutate(Mean_DistanceScore_AllB = mean(c(Mean_DistanceScore_G, Mean_DistanceScore_H, Mean_DistanceScore_I, Mean_DistanceScore_J), na.rm = TRUE)) 
+All_batches <- All_batches %>% mutate(Mean_DistanceScore_AllB = rowMeans(select(., Mean_DistanceScore_G, Mean_DistanceScore_H, Mean_DistanceScore_I, Mean_DistanceScore_J), na.rm = TRUE)) 
 All_batches <- All_batches %>% select(Compound_Cn, Compound, Concentration, IR_statut, Mean_DistanceScore_AllB, Mean_DistanceScore_G, Mean_DistanceScore_H, Mean_DistanceScore_I, Mean_DistanceScore_J)
 
 # ---- Calculate Mean Distance Score without AstroJ ---- 
 if ("package:plyr" %in% search()) {
   detach("package:plyr", unload = TRUE)
 } # Detach plyr if loaded as it inteferes with following script line
-All_batches <- All_batches %>% rowwise() %>% mutate(Mean_DistanceScore_AllB_no_J = mean(c(Mean_DistanceScore_G, Mean_DistanceScore_H, Mean_DistanceScore_I), na.rm = TRUE))
+All_batches <- All_batches %>% mutate(Mean_DistanceScore_AllB_no_J = rowMeans(select(.,Mean_DistanceScore_G, Mean_DistanceScore_H, Mean_DistanceScore_I), na.rm = TRUE))
 
 # ---- Add a new column counting the number of NA values for each row ---- 
 All_batches <- All_batches %>%
