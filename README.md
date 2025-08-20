@@ -18,21 +18,14 @@ This repository contains analysis code and figures presented in the the study:
 > *Phenotypic Screening Identifies Flunarizine as an Inhibitor of Radiotherapy-Induced Astrocyte Reactivity with Therapeutic Potential in Glioblastoma.*  
 > **bioRxiv**. https://doi.org/10.1101/2025.07.12.664538
 
----
-
-## Data availability
-### RNAeq analyses
-- **Raw data**: ArrayExpress accession [E-MTAB-15215](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-15215)  
-- **Processed data objects**: DESeq2 `.dds` and `.rds` objects in `data/rnaseq/` generated from paired-end RNA-seq reads processed using the [**nf-core/rnaseq** pipeline (v3.14.0)](https://nf-co.re/rnaseq/3.14.0/).
-- **Results**: contrasts, PCA, heatmaps, and figure-ready CSV/PDF outputs in `results/`
 
 ---
 
 
 ## Repository contents
-- `data/` — DESeq2 objects and metadata  
+- `data/` — processed data and metadata  
 - `results/` — figures and figure data of figures in manuscript
-- `scripts/` — analysis scripts to reproduice manuscript figures (e.g., `manuscript-figures.R`)  
+- `scripts/` — analysis scripts to reproduice manuscript figures
 - `LICENSE`, `CITATION.cff`, `README.md`  
 
 ---
