@@ -30,9 +30,9 @@ setwd(project.path)
 analysis.name <- "FlnProject-Manuscript"
 analysis.version <- "v1"
 
-deseq.raw.file <- "./data/deseq2.dds.RData"
-fdata.file     <- "./data/fdata_full.rds"
-pdata.file     <- "./data/pdata.rds"
+deseq.raw.file <- "./data/rnaseq/deseq2.dds.RData"
+fdata.file     <- "./data/rnaseq/fdata_full.rds"
+pdata.file     <- "./data/rnaseq/pdata.rds"
 
 # ---- Load and preprocess DESeq2 object ----
 load(deseq.raw.file)
@@ -281,4 +281,4 @@ dev.off()
 
 
 # ---- Save session info ----
-writeLines(capture.output(sessionInfo()), "./results/sessionInfo.txt")
+writeLines(capture.output(sessionInfo()), "./results/sessionInfo-rnaseq.txt")

@@ -21,8 +21,9 @@ This repository contains analysis code and figures presented in the the study:
 ---
 
 ## Data availability
+### RNAeq analyses
 - **Raw data**: ArrayExpress accession [E-MTAB-15215](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-15215)  
-- **Processed data objects**: DESeq2 `.dds` and `.rds` objects in `data/` generated from paired-end RNA-seq reads processed using the **nf-core/rnaseq** pipeline (v3.14.0). 
+- **Processed data objects**: DESeq2 `.dds` and `.rds` objects in `data/rnaseq/` generated from paired-end RNA-seq reads processed using the [**nf-core/rnaseq** pipeline (v3.14.0)](https://nf-co.re/rnaseq/3.14.0/).
 - **Results**: contrasts, PCA, heatmaps, and figure-ready CSV/PDF outputs in `results/`
 
 ---
@@ -36,9 +37,3 @@ This repository contains analysis code and figures presented in the the study:
 
 ---
 
-Objects included in `data/`:
-- `deseq2.dds.RData` — DESeq2 dataset object  
-- `deseq2.filtered.rds` — filtered DESeq2 object  
-- `fdata_full.rds`, `pdata.rds`, `SampleSheet-2024_169.csv` — metadata inputs  
-
----
