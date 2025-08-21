@@ -4,7 +4,6 @@
 **Preprint:** Jeannot P. *et al.* bioRxiv (2025)  
 https://doi.org/10.1101/2025.07.12.664538
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 <!-- Add Zenodo badge once you mint a DOI:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxxx)
 -->
@@ -30,3 +29,5 @@ This repository contains analysis code and figures presented in the the study:
 
 ---
 
+This repository is licensed under the GNU General Public License v3.0 (GPLv3).
+See the LICENSE file for details.
