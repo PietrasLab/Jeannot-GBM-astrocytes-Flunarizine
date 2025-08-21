@@ -12,7 +12,7 @@ identifiers:
   - type: url
     value: "https://www.biorxiv.org/content/10.1101/2025.07.12.664538v1"
     description: "bioRxiv landing page"
-license: MIT
+license: GPL-3.0-or-later
 preferred-citation:
   type: article
   title: "Phenotypic Screening Identifies Flunarizine as an Inhibitor of Radiotherapy-Induced Astrocyte Reactivity with Therapeutic Potential in Glioblastoma"
