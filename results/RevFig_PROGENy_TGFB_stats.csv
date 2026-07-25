@@ -1,0 +1,4 @@
+"group1","group2","n_pairs","mean_diff","p_raw","p_adj","test"
+"nonIR_DMSO","IR_DMSO",4,4.56126309765217,0.000910543553878065,0.00273163066163419,"Paired t-test on per-sample PROGENy score, blocked on replicate, BH-adjusted"
+"IR_DMSO","IR_Flunarizine",4,-8.3134649445221,0.00420489853663868,0.00630734780495802,"Paired t-test on per-sample PROGENy score, blocked on replicate, BH-adjusted"
+"nonIR_DMSO","nonIR_Flunarizine",4,-4.05585030307462,0.0172609931689462,0.0172609931689462,"Paired t-test on per-sample PROGENy score, blocked on replicate, BH-adjusted"

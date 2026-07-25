@@ -1,0 +1,7 @@
+"Symbol","log2FoldChange","padj","group1","group2","contrast","test"
+"TGFB2",0.0361049319599077,0.800597366190922,"nonIR_DMSO","IR_DMSO","IR vs nonIR (DMSO background)","DESeq2 Wald test, design ~ Rep + Condition, BH-adjusted genome-wide"
+"TGFB1",0.196106668716451,0.101075477257493,"nonIR_DMSO","IR_DMSO","IR vs nonIR (DMSO background)","DESeq2 Wald test, design ~ Rep + Condition, BH-adjusted genome-wide"
+"TGFB3",-0.0579376066876968,0.829560148662172,"nonIR_DMSO","IR_DMSO","IR vs nonIR (DMSO background)","DESeq2 Wald test, design ~ Rep + Condition, BH-adjusted genome-wide"
+"TGFB2",-0.543425157972227,6.39581196563559e-10,"IR_DMSO","IR_Flunarizine","Flunarizine vs DMSO (IR background)","DESeq2 Wald test, design ~ Rep + Condition, BH-adjusted genome-wide"
+"TGFB1",-0.28531595542474,0.00156810037095929,"IR_DMSO","IR_Flunarizine","Flunarizine vs DMSO (IR background)","DESeq2 Wald test, design ~ Rep + Condition, BH-adjusted genome-wide"
+"TGFB3",-0.398669922117316,0.00813911726985087,"IR_DMSO","IR_Flunarizine","Flunarizine vs DMSO (IR background)","DESeq2 Wald test, design ~ Rep + Condition, BH-adjusted genome-wide"
