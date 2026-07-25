@@ -1,0 +1,4 @@
+"group1","group2","p_raw","p_adj","test"
+"Primary","Healthy",0.0952380952380952,0.142857142857143,"Exact Wilcoxon rank-sum on per-sample medians, BH-adjusted"
+"Recurrent","Healthy",0.00865800865800866,0.025974025974026,"Exact Wilcoxon rank-sum on per-sample medians, BH-adjusted"
+"Recurrent","Primary",0.428571428571429,0.428571428571429,"Exact Wilcoxon rank-sum on per-sample medians, BH-adjusted"

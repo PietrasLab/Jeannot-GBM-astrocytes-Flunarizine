@@ -1,0 +1,2 @@
+"comparison","test","n_pairs","n_higher_in_AstroR","p_value","median_delta_R_minus_TENT"
+"Astrocyte R vs Astrocyte TE/NT (paired per-sample medians)","Wilcoxon signed-rank (paired, exact)",14,13,0.000244140625,0.117963491050044

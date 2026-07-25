@@ -1,5 +1,20 @@
 .DS_Store
 
+# Sandbox folder for work in progress
+sandbox/
+
+# Externally hosted data (downloaded from Zenodo at analysis time),
+# see data/external/README.md
+data/external/*
+!data/external/README.md
+
+# Working drafts of manuscript text kept next to the figures for our
+# own convenience - not part of the published record
+results/*manuscript-text.md
+
+# RStudio project files
+*.Rproj
+
 # History files
 .Rhistory
 .Rapp.history
