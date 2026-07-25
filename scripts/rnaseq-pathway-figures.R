@@ -127,6 +127,16 @@ tgfb_top_pos <- tgfb_pathway %>% filter(weight > 0) %>% slice_head(n = TOP_N_GEN
 
 write.csv(tgfb_pathway, out_path("PROGENy_TGFB_signature.csv"), row.names = FALSE)
 
+# get_progeny() queries OmniPath at run time, so the network is not
+# pinned by the package version the way MSigDB is by msigdbr. Save the
+# whole thing, not just the TGF-beta rows: run_mlm is multivariate and
+# fits all pathways jointly, so the TGF-beta score depends on every
+# row here. Without this the figure cannot be reproduced if OmniPath
+# changes.
+write.csv(net, out_path("PROGENy_network_full.csv"), row.names = FALSE)
+message("PROGENy network: ", nrow(net), " rows across ",
+        dplyr::n_distinct(net$source), " pathways")
+
 tgfb_ligands <- c("TGFB1", "TGFB2", "TGFB3")
 genes_of_interest <- fdata$ensembl_gene_id[
   fdata$external_gene_name_ensembl %in% unique(c(tgfb_top_pos$target, tgfb_ligands))
